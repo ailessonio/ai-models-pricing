@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "https://ailesson.io/llm-price/api/models",
-  "updatedAt": "2026-09-23T08:34:22.975Z",
-  "modelCount": 449,
-  "paidModelCount": 425,
+  "updatedAt": "2026-09-24T08:27:02.118Z",
+  "modelCount": 454,
+  "paidModelCount": 430,
   "models": [
     {
       "id": "~anthropic/claude-fable-latest",
@@ -85,8 +85,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1e-7,
-      "outputPrice": 5e-7,
+      "inputPrice": 9.9e-8,
+      "outputPrice": 6e-7,
       "maxCompletionTokens": 943718
     },
     {
@@ -100,9 +100,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4e-7,
-      "outputPrice": 0.0000043,
-      "maxCompletionTokens": 384000
+      "inputPrice": 3.865e-7,
+      "outputPrice": 0.0000029,
+      "maxCompletionTokens": 943718
     },
     {
       "id": "~deepseek/deepseek-v4-flash-latest",
@@ -170,8 +170,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 0.0000014989,
-      "outputPrice": 0.000010758,
+      "inputPrice": 9.1e-7,
+      "outputPrice": 0.0000069875,
       "maxCompletionTokens": 943718
     },
     {
@@ -343,6 +343,36 @@
       "name": "AionLabs: Aion-3.0-Mini",
       "created": 1783443096,
       "contextLength": 131072,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 7e-7,
+      "outputPrice": 0.0000014,
+      "maxCompletionTokens": 32768
+    },
+    {
+      "id": "aion-labs/aion-3.5",
+      "name": "AionLabs: Aion 3.5",
+      "created": 1790170961,
+      "contextLength": 262144,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0.000003,
+      "outputPrice": 0.000006,
+      "maxCompletionTokens": 32768
+    },
+    {
+      "id": "aion-labs/aion-3.5-mini",
+      "name": "AionLabs: Aion 3.5 Mini",
+      "created": 1790170962,
+      "contextLength": 262144,
       "inputModalities": [
         "text"
       ],
@@ -1386,8 +1416,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 9.5526e-7,
-      "outputPrice": 0.00000191052,
+      "inputPrice": 9.396e-7,
+      "outputPrice": 0.0000018792,
       "maxCompletionTokens": 384000
     },
     {
@@ -1401,8 +1431,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 0.00000132,
-      "outputPrice": 0.00000396,
+      "inputPrice": 4.62e-7,
+      "outputPrice": 0.000001386,
       "maxCompletionTokens": 384000
     },
     {
@@ -1417,9 +1447,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1e-7,
-      "outputPrice": 5e-7,
-      "maxCompletionTokens": 943718
+      "inputPrice": 1.4e-7,
+      "outputPrice": 4.2e-7,
+      "maxCompletionTokens": 131072
     },
     {
       "id": "deepseek/deepseek-v4.1-flash:batch",
@@ -2333,7 +2363,7 @@
       "id": "inclusionai/ling-3.0-flash-vl",
       "name": "inclusionAI: Ling 3.0 Flash VL",
       "created": 1789056114,
-      "contextLength": 131072,
+      "contextLength": 262144,
       "inputModalities": [
         "text",
         "image",
@@ -2344,23 +2374,6 @@
       ],
       "inputPrice": 6e-8,
       "outputPrice": 1.8e-7,
-      "maxCompletionTokens": 32768
-    },
-    {
-      "id": "inclusionai/ling-3.0-flash-vl:free",
-      "name": "inclusionAI: Ling 3.0 Flash VL (free)",
-      "created": 1789056114,
-      "contextLength": 262144,
-      "inputModalities": [
-        "text",
-        "image",
-        "video"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "inputPrice": 0,
-      "outputPrice": 0,
       "maxCompletionTokens": 32768
     },
     {
@@ -2759,9 +2772,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.55e-7,
-      "outputPrice": 0.00000102,
-      "maxCompletionTokens": 131072
+      "inputPrice": 3e-7,
+      "outputPrice": 0.0000012,
+      "maxCompletionTokens": 176947
     },
     {
       "id": "minimax/minimax-m2-her",
@@ -2871,22 +2884,6 @@
       "inputPrice": 1.5e-7,
       "outputPrice": 4.5e-7,
       "maxCompletionTokens": 204800
-    },
-    {
-      "id": "mistralai/devstral-2512",
-      "name": "Mistral: Devstral 2 2512",
-      "created": 1765285419,
-      "contextLength": 262144,
-      "inputModalities": [
-        "text",
-        "file"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "inputPrice": 4e-7,
-      "outputPrice": 0.000002,
-      "maxCompletionTokens": 209715
     },
     {
       "id": "mistralai/ministral-14b-2512",
@@ -3631,9 +3628,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 7e-8,
+      "inputPrice": 8e-8,
       "outputPrice": 2e-7,
-      "maxCompletionTokens": 235929
+      "maxCompletionTokens": 131072
     },
     {
       "id": "nvidia/nemotron-3.5-lightning:free",
@@ -5079,6 +5076,21 @@
       "maxCompletionTokens": 65536
     },
     {
+      "id": "openai/gpt-oss-120b:batch",
+      "name": "OpenAI: gpt-oss-120b (batch)",
+      "created": 1754414231,
+      "contextLength": 131072,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 2.96e-8,
+      "outputPrice": 1.36e-7,
+      "maxCompletionTokens": 117964
+    },
+    {
       "id": "openai/gpt-oss-20b",
       "name": "OpenAI: gpt-oss-20b",
       "created": 1754414229,
@@ -5837,9 +5849,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 9e-8,
+      "inputPrice": 1e-7,
       "outputPrice": 0.0000011,
-      "maxCompletionTokens": 16384
+      "maxCompletionTokens": 235929
     },
     {
       "id": "qwen/qwen3-next-80b-a3b-thinking",
@@ -6319,6 +6331,23 @@
       "maxCompletionTokens": 131072
     },
     {
+      "id": "qwen/qwen3.8-max-prime",
+      "name": "Qwen: Qwen3.8 Max Prime",
+      "created": 1790191228,
+      "contextLength": 1000000,
+      "inputModalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0.000004,
+      "outputPrice": 0.000012,
+      "maxCompletionTokens": 131072
+    },
+    {
       "id": "qwen/qwen3.8-omni-flash",
       "name": "Qwen: Qwen3.8 Omni Flash",
       "created": 1789959954,
@@ -6509,6 +6538,23 @@
       "inputPrice": 6.5e-7,
       "outputPrice": 7.5e-7,
       "maxCompletionTokens": 16384
+    },
+    {
+      "id": "stealth/space-bunny-alpha",
+      "name": "Space Bunny Alpha",
+      "created": 1790174884,
+      "contextLength": 1000000,
+      "inputModalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0,
+      "outputPrice": 0,
+      "maxCompletionTokens": 524288
     },
     {
       "id": "stepfun/step-3.5-flash",
@@ -6790,6 +6836,21 @@
       "inputPrice": 3.5e-7,
       "outputPrice": 6.5e-7,
       "maxCompletionTokens": 5529
+    },
+    {
+      "id": "upstage/solar-mini4",
+      "name": "Upstage: Solar Mini 4",
+      "created": 1790160358,
+      "contextLength": 524288,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 5e-8,
+      "outputPrice": 2e-7,
+      "maxCompletionTokens": 131072
     },
     {
       "id": "upstage/solar-pro-3",
@@ -7309,6 +7370,21 @@
       "maxCompletionTokens": 131072
     },
     {
+      "id": "z-ai/glm-5.3-prime",
+      "name": "Z.ai: GLM 5.3 Prime",
+      "created": 1790199651,
+      "contextLength": 1000000,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0.0000028,
+      "outputPrice": 0.0000088,
+      "maxCompletionTokens": 131072
+    },
+    {
       "id": "z-ai/glm-5.3:batch",
       "name": "Z.ai: GLM 5.3 (batch)",
       "created": 1787086655,
@@ -7319,8 +7395,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 7.2e-7,
-      "outputPrice": 0.0000024,
+      "inputPrice": 4.5e-7,
+      "outputPrice": 0.000002,
       "maxCompletionTokens": 131072
     },
     {
