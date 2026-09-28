@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "https://ailesson.io/llm-price/api/models",
-  "updatedAt": "2026-09-27T09:15:11.639Z",
+  "updatedAt": "2026-09-28T09:45:45.285Z",
   "modelCount": 452,
   "paidModelCount": 431,
   "models": [
@@ -85,9 +85,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.5e-8,
-      "outputPrice": 2.9e-7,
-      "maxCompletionTokens": 384000
+      "inputPrice": 2.5e-8,
+      "outputPrice": 6e-7,
+      "maxCompletionTokens": 943718
     },
     {
       "id": "~deepseek/deepseek-pro-latest",
@@ -100,9 +100,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.442e-7,
-      "outputPrice": 7.326e-7,
-      "maxCompletionTokens": 393216
+      "inputPrice": 1.28e-7,
+      "outputPrice": 0.0000019584,
+      "maxCompletionTokens": 943718
     },
     {
       "id": "~deepseek/deepseek-v4-flash-latest",
@@ -170,8 +170,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 5e-7,
-      "outputPrice": 0.0000028,
+      "inputPrice": 0.000001,
+      "outputPrice": 0.000009,
       "maxCompletionTokens": 943718
     },
     {
@@ -305,7 +305,7 @@
         "text"
       ],
       "inputPrice": 1.785e-7,
-      "outputPrice": 5.61e-7,
+      "outputPrice": 0.000002805,
       "maxCompletionTokens": 943718
     },
     {
@@ -1219,9 +1219,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.2e-7,
-      "outputPrice": 8.9e-7,
-      "maxCompletionTokens": 16384
+      "inputPrice": 2.574e-7,
+      "outputPrice": 0.0000010287,
+      "maxCompletionTokens": 16000
     },
     {
       "id": "deepseek/deepseek-chat-v3-0324",
@@ -1234,8 +1234,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.5e-7,
-      "outputPrice": 0.000001,
+      "inputPrice": 2.9e-7,
+      "outputPrice": 0.00000114,
       "maxCompletionTokens": 147456
     },
     {
@@ -1324,8 +1324,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.69e-7,
-      "outputPrice": 4e-7,
+      "inputPrice": 2.8e-7,
+      "outputPrice": 4.2e-7,
       "maxCompletionTokens": 65536
     },
     {
@@ -1354,8 +1354,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4.69e-8,
-      "outputPrice": 9.38e-8,
+      "inputPrice": 1.4e-7,
+      "outputPrice": 2.8e-7,
       "maxCompletionTokens": 131072
     },
     {
@@ -1385,9 +1385,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.156e-7,
-      "outputPrice": 6.468e-7,
-      "maxCompletionTokens": 262144
+      "inputPrice": 4.4e-7,
+      "outputPrice": 0.00000132,
+      "maxCompletionTokens": 943717
     },
     {
       "id": "deepseek/deepseek-v4-pro",
@@ -1400,8 +1400,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.48e-7,
-      "outputPrice": 6.96e-7,
+      "inputPrice": 9.5526e-7,
+      "outputPrice": 0.00000191052,
       "maxCompletionTokens": 384000
     },
     {
@@ -1415,8 +1415,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.4502e-7,
-      "outputPrice": 0.0000035,
+      "inputPrice": 2.523e-7,
+      "outputPrice": 0.0000042,
       "maxCompletionTokens": 943718
     },
     {
@@ -1431,9 +1431,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.5e-8,
-      "outputPrice": 2.9e-7,
-      "maxCompletionTokens": 384000
+      "inputPrice": 2.5e-8,
+      "outputPrice": 6e-7,
+      "maxCompletionTokens": 943718
     },
     {
       "id": "deepseek/deepseek-v4.1-flash:batch",
@@ -2135,8 +2135,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 6.75e-8,
-      "outputPrice": 2.25e-7,
+      "inputPrice": 9e-8,
+      "outputPrice": 3e-7,
       "maxCompletionTokens": 235929
     },
     {
@@ -2614,8 +2614,7 @@
         "text",
         "image",
         "video",
-        "file",
-        "audio"
+        "file"
       ],
       "outputModalities": [
         "text"
@@ -2633,8 +2632,7 @@
         "text",
         "image",
         "video",
-        "file",
-        "audio"
+        "file"
       ],
       "outputModalities": [
         "text"
@@ -2652,8 +2650,7 @@
         "text",
         "image",
         "video",
-        "file",
-        "audio"
+        "file"
       ],
       "outputModalities": [
         "text"
@@ -2671,8 +2668,7 @@
         "text",
         "image",
         "video",
-        "file",
-        "audio"
+        "file"
       ],
       "outputModalities": [
         "text"
@@ -2690,8 +2686,7 @@
         "text",
         "image",
         "video",
-        "file",
-        "audio"
+        "file"
       ],
       "outputModalities": [
         "text"
@@ -2772,9 +2767,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.55e-7,
-      "outputPrice": 0.00000102,
-      "maxCompletionTokens": 131072
+      "inputPrice": 3e-7,
+      "outputPrice": 0.0000012,
+      "maxCompletionTokens": 176947
     },
     {
       "id": "minimax/minimax-m2-her",
@@ -2832,9 +2827,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.1e-7,
-      "outputPrice": 8.4e-7,
-      "maxCompletionTokens": 176947
+      "inputPrice": 3e-7,
+      "outputPrice": 0.0000012,
+      "maxCompletionTokens": 131072
     },
     {
       "id": "minimax/minimax-m3",
@@ -3332,8 +3327,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 9.5e-7,
-      "outputPrice": 0.000004,
+      "inputPrice": 6.5e-7,
+      "outputPrice": 0.00000341,
       "maxCompletionTokens": 235929
     },
     {
@@ -6014,9 +6009,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.125e-7,
-      "outputPrice": 0.00000125,
-      "maxCompletionTokens": 16384
+      "inputPrice": 1.625e-7,
+      "outputPrice": 0.0000013,
+      "maxCompletionTokens": 65536
     },
     {
       "id": "qwen/qwen3.5-397b-a17b",
@@ -7256,8 +7251,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 9.646e-7,
-      "outputPrice": 0.0000030316,
+      "inputPrice": 0.0000014,
+      "outputPrice": 0.0000044,
       "maxCompletionTokens": 131072
     },
     {
@@ -7286,9 +7281,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.785e-7,
-      "outputPrice": 5.61e-7,
-      "maxCompletionTokens": 943718
+      "inputPrice": 0.0000014,
+      "outputPrice": 0.0000044,
+      "maxCompletionTokens": 943717
     },
     {
       "id": "z-ai/glm-5.3-flash",
@@ -7303,9 +7298,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4.5e-8,
-      "outputPrice": 1.4e-7,
-      "maxCompletionTokens": 128000
+      "inputPrice": 1.5e-7,
+      "outputPrice": 5e-7,
+      "maxCompletionTokens": 943717
     },
     {
       "id": "z-ai/glm-5.3-flash:batch",
