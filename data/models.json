@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "https://ailesson.io/llm-price/api/models",
-  "updatedAt": "2026-09-28T09:45:45.285Z",
-  "modelCount": 452,
-  "paidModelCount": 431,
+  "updatedAt": "2026-09-29T09:49:10.515Z",
+  "modelCount": 454,
+  "paidModelCount": 434,
   "models": [
     {
       "id": "~anthropic/claude-fable-latest",
@@ -85,7 +85,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.5e-8,
+      "inputPrice": 2e-8,
       "outputPrice": 6e-7,
       "maxCompletionTokens": 943718
     },
@@ -100,7 +100,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.28e-7,
+      "inputPrice": 1.5808e-7,
       "outputPrice": 0.0000019584,
       "maxCompletionTokens": 943718
     },
@@ -115,8 +115,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.1e-8,
-      "outputPrice": 3.2e-7,
+      "inputPrice": 1.2e-8,
+      "outputPrice": 0.00000125,
       "maxCompletionTokens": 943718
     },
     {
@@ -170,8 +170,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 0.000001,
-      "outputPrice": 0.000009,
+      "inputPrice": 4e-7,
+      "outputPrice": 0.00001,
       "maxCompletionTokens": 943718
     },
     {
@@ -272,8 +272,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 0.0000016,
-      "outputPrice": 0.0000048,
+      "inputPrice": 0.000002,
+      "outputPrice": 0.000006,
       "maxCompletionTokens": 450000
     },
     {
@@ -289,9 +289,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4.5e-8,
-      "outputPrice": 1.4e-7,
-      "maxCompletionTokens": 128000
+      "inputPrice": 2e-8,
+      "outputPrice": 3e-7,
+      "maxCompletionTokens": 943718
     },
     {
       "id": "~z-ai/glm-latest",
@@ -304,9 +304,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.785e-7,
-      "outputPrice": 0.000002805,
-      "maxCompletionTokens": 943718
+      "inputPrice": 1.9e-7,
+      "outputPrice": 0.000004,
+      "maxCompletionTokens": 131072
     },
     {
       "id": "aion-labs/aion-2.0",
@@ -954,6 +954,40 @@
       "maxCompletionTokens": 128000
     },
     {
+      "id": "anthropic/claude-sonnet-5.5",
+      "name": "Anthropic: Claude Sonnet 5.5",
+      "created": 1790618686,
+      "contextLength": 1000000,
+      "inputModalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0.000002,
+      "outputPrice": 0.00001,
+      "maxCompletionTokens": 128000
+    },
+    {
+      "id": "anthropic/claude-sonnet-5.5:batch",
+      "name": "Anthropic: Claude Sonnet 5.5 (batch)",
+      "created": 1790618686,
+      "contextLength": 1000000,
+      "inputModalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0.000001,
+      "outputPrice": 0.000005,
+      "maxCompletionTokens": 128000
+    },
+    {
       "id": "arcee-ai/trinity-large-thinking",
       "name": "Arcee AI: Trinity Large Thinking",
       "created": 1775058318,
@@ -1284,21 +1318,6 @@
       "maxCompletionTokens": 32768
     },
     {
-      "id": "deepseek/deepseek-r1-distill-llama-70b",
-      "name": "DeepSeek: R1 Distill Llama 70B",
-      "created": 1737663169,
-      "contextLength": 8192,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "inputPrice": 8e-7,
-      "outputPrice": 8e-7,
-      "maxCompletionTokens": 7372
-    },
-    {
       "id": "deepseek/deepseek-v3.1-terminus",
       "name": "DeepSeek: DeepSeek V3.1 Terminus",
       "created": 1758548275,
@@ -1309,9 +1328,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.7e-7,
+      "inputPrice": 3e-7,
       "outputPrice": 0.000001,
-      "maxCompletionTokens": 32768
+      "maxCompletionTokens": 65536
     },
     {
       "id": "deepseek/deepseek-v3.2",
@@ -1341,7 +1360,7 @@
       ],
       "inputPrice": 2.7e-7,
       "outputPrice": 4.1e-7,
-      "maxCompletionTokens": 65536
+      "maxCompletionTokens": 147456
     },
     {
       "id": "deepseek/deepseek-v4-flash",
@@ -1369,7 +1388,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.1e-8,
+      "inputPrice": 1.8e-8,
       "outputPrice": 3.2e-7,
       "maxCompletionTokens": 943718
     },
@@ -1385,9 +1404,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4.4e-7,
-      "outputPrice": 0.00000132,
-      "maxCompletionTokens": 943717
+      "inputPrice": 2.156e-7,
+      "outputPrice": 6.468e-7,
+      "maxCompletionTokens": 262144
     },
     {
       "id": "deepseek/deepseek-v4-pro",
@@ -1415,7 +1434,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.523e-7,
+      "inputPrice": 4.8e-7,
       "outputPrice": 0.0000042,
       "maxCompletionTokens": 943718
     },
@@ -1431,8 +1450,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.5e-8,
-      "outputPrice": 6e-7,
+      "inputPrice": 3e-7,
+      "outputPrice": 0.0000012,
       "maxCompletionTokens": 943718
     },
     {
@@ -2330,21 +2349,6 @@
       "maxCompletionTokens": 235929
     },
     {
-      "id": "inclusionai/ling-3.0-flash-fin:free",
-      "name": "inclusionAI: Ling 3.0 Flash Fin (free)",
-      "created": 1787846290,
-      "contextLength": 262144,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "inputPrice": 0,
-      "outputPrice": 0,
-      "maxCompletionTokens": 32768
-    },
-    {
       "id": "inclusionai/ling-3.0-flash-sante:free",
       "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
       "created": 1788545946,
@@ -2827,9 +2831,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3e-7,
-      "outputPrice": 0.0000012,
-      "maxCompletionTokens": 131072
+      "inputPrice": 2.1e-7,
+      "outputPrice": 8.4e-7,
+      "maxCompletionTokens": 176947
     },
     {
       "id": "minimax/minimax-m3",
@@ -3412,6 +3416,38 @@
       "maxCompletionTokens": 131072
     },
     {
+      "id": "nex-agi/nex-n2.5-mini",
+      "name": "Nex AGI: Nex-N2.5-Mini",
+      "created": 1788890061,
+      "contextLength": 262144,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 2.5e-8,
+      "outputPrice": 1e-7,
+      "maxCompletionTokens": 235929
+    },
+    {
+      "id": "nex-agi/nex-n2.5-pro",
+      "name": "Nex AGI: Nex-N2.5-Pro",
+      "created": 1788890050,
+      "contextLength": 262144,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 7.5e-8,
+      "outputPrice": 2.5e-7,
+      "maxCompletionTokens": 235929
+    },
+    {
       "id": "nousresearch/hermes-3-llama-3.1-405b",
       "name": "Nous: Hermes 3 405B Instruct",
       "created": 1723766400,
@@ -3592,9 +3628,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 8e-8,
-      "outputPrice": 2e-7,
-      "maxCompletionTokens": 131072
+      "inputPrice": 6e-8,
+      "outputPrice": 1.6e-7,
+      "maxCompletionTokens": 32768
     },
     {
       "id": "nvidia/nemotron-3.5-lightning:free",
@@ -4663,8 +4699,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 0.000002,
-      "outputPrice": 0.00001,
+      "inputPrice": 0.000004,
+      "outputPrice": 0.00002,
       "maxCompletionTokens": 128000
     },
     {
@@ -5035,9 +5071,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.5e-7,
-      "outputPrice": 6e-7,
-      "maxCompletionTokens": 65536
+      "inputPrice": 3.7e-8,
+      "outputPrice": 1.7e-7,
+      "maxCompletionTokens": 117964
     },
     {
       "id": "openai/gpt-oss-120b:batch",
@@ -5651,9 +5687,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.2e-7,
-      "outputPrice": 5e-7,
-      "maxCompletionTokens": 16384
+      "inputPrice": 1.3e-7,
+      "outputPrice": 5.2e-7,
+      "maxCompletionTokens": 8192
     },
     {
       "id": "qwen/qwen3-30b-a3b-instruct-2507",
@@ -5666,9 +5702,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1e-7,
-      "outputPrice": 3e-7,
-      "maxCompletionTokens": 235929
+      "inputPrice": 4.815e-8,
+      "outputPrice": 1.9305e-7,
+      "maxCompletionTokens": 32000
     },
     {
       "id": "qwen/qwen3-30b-a3b-thinking-2507",
@@ -6257,9 +6293,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4.2e-7,
-      "outputPrice": 0.000003,
-      "maxCompletionTokens": 131072
+      "inputPrice": 6.05e-8,
+      "outputPrice": 0.0000044,
+      "maxCompletionTokens": 235929
     },
     {
       "id": "qwen/qwen3.8-27b:free",
@@ -6994,8 +7030,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 0.0000016,
-      "outputPrice": 0.0000048,
+      "inputPrice": 0.000002,
+      "outputPrice": 0.000006,
       "maxCompletionTokens": 450000
     },
     {
@@ -7266,9 +7302,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 6.496e-7,
-      "outputPrice": 0.0000020416,
-      "maxCompletionTokens": 131072
+      "inputPrice": 3.9e-7,
+      "outputPrice": 0.0000044,
+      "maxCompletionTokens": 943718
     },
     {
       "id": "z-ai/glm-5.3",
