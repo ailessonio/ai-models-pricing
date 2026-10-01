@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "https://ailesson.io/llm-price/api/models",
-  "updatedAt": "2026-09-30T09:41:40.286Z",
-  "modelCount": 458,
-  "paidModelCount": 438,
+  "updatedAt": "2026-10-01T10:07:36.498Z",
+  "modelCount": 456,
+  "paidModelCount": 436,
   "models": [
     {
       "id": "~anthropic/claude-fable-latest",
@@ -85,8 +85,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.98e-8,
-      "outputPrice": 3.96e-7,
+      "inputPrice": 2.7e-8,
+      "outputPrice": 6e-7,
       "maxCompletionTokens": 943718
     },
     {
@@ -100,9 +100,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.449e-7,
-      "outputPrice": 0.00000349,
-      "maxCompletionTokens": 943718
+      "inputPrice": 2.376e-7,
+      "outputPrice": 7.128e-7,
+      "maxCompletionTokens": 393216
     },
     {
       "id": "~deepseek/deepseek-v4-flash-latest",
@@ -115,8 +115,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 9.9e-9,
-      "outputPrice": 1.3068e-7,
+      "inputPrice": 1.08e-8,
+      "outputPrice": 0.00000128,
       "maxCompletionTokens": 943718
     },
     {
@@ -170,8 +170,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.654e-7,
-      "outputPrice": 0.0000091343,
+      "inputPrice": 6.77e-7,
+      "outputPrice": 0.00001,
       "maxCompletionTokens": 943718
     },
     {
@@ -290,7 +290,7 @@
         "text"
       ],
       "inputPrice": 2e-8,
-      "outputPrice": 2.475e-7,
+      "outputPrice": 3e-7,
       "maxCompletionTokens": 943718
     },
     {
@@ -304,7 +304,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.3e-7,
+      "inputPrice": 1.566e-7,
       "outputPrice": 0.000004,
       "maxCompletionTokens": 131072
     },
@@ -1373,9 +1373,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.4e-7,
-      "outputPrice": 2.8e-7,
-      "maxCompletionTokens": 131072
+      "inputPrice": 4.2e-8,
+      "outputPrice": 8.4e-8,
+      "maxCompletionTokens": 384000
     },
     {
       "id": "deepseek/deepseek-v4-flash-0731",
@@ -1388,7 +1388,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1e-8,
+      "inputPrice": 1.08e-8,
       "outputPrice": 0.00000128,
       "maxCompletionTokens": 943718
     },
@@ -1419,8 +1419,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 9.5526e-7,
-      "outputPrice": 0.00000191052,
+      "inputPrice": 2.088e-7,
+      "outputPrice": 4.176e-7,
       "maxCompletionTokens": 384000
     },
     {
@@ -1450,8 +1450,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.98e-8,
-      "outputPrice": 3.96e-7,
+      "inputPrice": 2.7e-8,
+      "outputPrice": 6e-7,
       "maxCompletionTokens": 943718
     },
     {
@@ -2756,7 +2756,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4e-7,
+      "inputPrice": 5.5e-7,
       "outputPrice": 0.0000022,
       "maxCompletionTokens": 40000
     },
@@ -3301,7 +3301,7 @@
       ],
       "inputPrice": 6e-7,
       "outputPrice": 0.0000025,
-      "maxCompletionTokens": 98304
+      "maxCompletionTokens": 235929
     },
     {
       "id": "moonshotai/kimi-k2.5",
@@ -3364,8 +3364,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 0.000003,
-      "outputPrice": 0.000015,
+      "inputPrice": 6.77e-7,
+      "outputPrice": 0.00001,
       "maxCompletionTokens": 943718
     },
     {
@@ -3628,9 +3628,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 6e-8,
-      "outputPrice": 1.6e-7,
-      "maxCompletionTokens": 32768
+      "inputPrice": 5.95e-8,
+      "outputPrice": 1.7e-7,
+      "maxCompletionTokens": 131072
     },
     {
       "id": "nvidia/nemotron-3.5-lightning:free",
@@ -5044,40 +5044,6 @@
       "maxCompletionTokens": 128000
     },
     {
-      "id": "openai/gpt-6.1-sol-pro:batch",
-      "name": "OpenAI: GPT-6.1 Sol Pro (batch)",
-      "created": 1790702886,
-      "contextLength": 1050000,
-      "inputModalities": [
-        "file",
-        "image",
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "inputPrice": 0.000001,
-      "outputPrice": 0.000005,
-      "maxCompletionTokens": 128000
-    },
-    {
-      "id": "openai/gpt-6.1-sol:batch",
-      "name": "OpenAI: GPT-6.1 Sol (batch)",
-      "created": 1790702882,
-      "contextLength": 1050000,
-      "inputModalities": [
-        "file",
-        "image",
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "inputPrice": 0.000001,
-      "outputPrice": 0.000005,
-      "maxCompletionTokens": 128000
-    },
-    {
       "id": "openai/gpt-audio",
       "name": "OpenAI: GPT Audio",
       "created": 1768862569,
@@ -5755,9 +5721,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.3e-7,
-      "outputPrice": 5.2e-7,
-      "maxCompletionTokens": 8192
+      "inputPrice": 1.2e-7,
+      "outputPrice": 5e-7,
+      "maxCompletionTokens": 16384
     },
     {
       "id": "qwen/qwen3-30b-a3b-instruct-2507",
@@ -7156,7 +7122,7 @@
       "id": "xiaomi/mimo-v2.6-flash",
       "name": "Xiaomi: MiMo-V2.6-Flash",
       "created": 1790021264,
-      "contextLength": 1048576,
+      "contextLength": 1050000,
       "inputModalities": [
         "text",
         "image",
@@ -7355,8 +7321,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 0.0000014,
-      "outputPrice": 0.0000044,
+      "inputPrice": 9.646e-7,
+      "outputPrice": 0.0000030316,
       "maxCompletionTokens": 131072
     },
     {
@@ -7370,8 +7336,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4.1e-7,
-      "outputPrice": 0.00000399,
+      "inputPrice": 0.0000014,
+      "outputPrice": 0.0000044,
       "maxCompletionTokens": 943718
     },
     {
@@ -7385,9 +7351,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 0.0000014,
+      "inputPrice": 2.219e-7,
       "outputPrice": 0.0000044,
-      "maxCompletionTokens": 943717
+      "maxCompletionTokens": 943718
     },
     {
       "id": "z-ai/glm-5.3-flash",
