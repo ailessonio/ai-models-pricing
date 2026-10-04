@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "https://ailesson.io/llm-price/api/models",
-  "updatedAt": "2026-10-03T09:08:38.796Z",
+  "updatedAt": "2026-10-04T09:47:01.586Z",
   "modelCount": 459,
   "paidModelCount": 437,
   "models": [
@@ -85,8 +85,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2e-8,
-      "outputPrice": 6e-7,
+      "inputPrice": 3e-9,
+      "outputPrice": 0.0000024,
       "maxCompletionTokens": 943718
     },
     {
@@ -100,9 +100,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.2e-7,
+      "inputPrice": 1.901e-7,
       "outputPrice": 0.0000042,
-      "maxCompletionTokens": 943718
+      "maxCompletionTokens": 393216
     },
     {
       "id": "~deepseek/deepseek-v4-flash-latest",
@@ -115,7 +115,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.71e-8,
+      "inputPrice": 1.52e-8,
       "outputPrice": 0.00000128,
       "maxCompletionTokens": 943718
     },
@@ -170,7 +170,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 9.8e-7,
+      "inputPrice": 6.624e-7,
       "outputPrice": 0.000013,
       "maxCompletionTokens": 943718
     },
@@ -289,7 +289,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.5e-8,
+      "inputPrice": 3.52e-8,
       "outputPrice": 5e-7,
       "maxCompletionTokens": 131072
     },
@@ -304,9 +304,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.2e-7,
-      "outputPrice": 0.000004,
-      "maxCompletionTokens": 131072
+      "inputPrice": 5e-8,
+      "outputPrice": 0.000005,
+      "maxCompletionTokens": 943718
     },
     {
       "id": "aion-labs/aion-2.0",
@@ -1283,9 +1283,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.9e-7,
-      "outputPrice": 0.00000114,
-      "maxCompletionTokens": 115200
+      "inputPrice": 2.5e-7,
+      "outputPrice": 0.000001,
+      "maxCompletionTokens": 147456
     },
     {
       "id": "deepseek/deepseek-chat-v3.1",
@@ -1388,9 +1388,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.8e-8,
-      "outputPrice": 5.6e-8,
-      "maxCompletionTokens": 384000
+      "inputPrice": 2.24e-8,
+      "outputPrice": 0.00000128,
+      "maxCompletionTokens": 943718
     },
     {
       "id": "deepseek/deepseek-v4-flash-0731",
@@ -1403,7 +1403,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.71e-8,
+      "inputPrice": 1.52e-8,
       "outputPrice": 0.00000128,
       "maxCompletionTokens": 943718
     },
@@ -1449,9 +1449,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 6.6e-7,
-      "outputPrice": 0.00000198,
-      "maxCompletionTokens": 393216
+      "inputPrice": 0.0000056,
+      "outputPrice": 0.000029,
+      "maxCompletionTokens": 943718
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
@@ -1465,8 +1465,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3e-7,
-      "outputPrice": 0.0000012,
+      "inputPrice": 3e-9,
+      "outputPrice": 0.0000024,
       "maxCompletionTokens": 943718
     },
     {
@@ -2571,8 +2571,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1e-7,
-      "outputPrice": 3.2e-7,
+      "inputPrice": 2.2e-7,
+      "outputPrice": 5e-7,
       "maxCompletionTokens": 16384
     },
     {
@@ -3394,8 +3394,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 0.0000027,
-      "outputPrice": 0.0000135,
+      "inputPrice": 7.2e-7,
+      "outputPrice": 0.000013,
       "maxCompletionTokens": 943718
     },
     {
@@ -7382,8 +7382,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4.1e-7,
-      "outputPrice": 0.00000399,
+      "inputPrice": 3.8e-7,
+      "outputPrice": 0.00000349,
       "maxCompletionTokens": 943718
     },
     {
