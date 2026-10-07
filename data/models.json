@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "https://ailesson.io/llm-price/api/models",
-  "updatedAt": "2026-10-06T10:16:47.376Z",
-  "modelCount": 457,
-  "paidModelCount": 437,
+  "updatedAt": "2026-10-07T10:15:08.851Z",
+  "modelCount": 458,
+  "paidModelCount": 438,
   "models": [
     {
       "id": "~anthropic/claude-fable-latest",
@@ -100,9 +100,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.702e-7,
-      "outputPrice": 0.0000042,
-      "maxCompletionTokens": 393216
+      "inputPrice": 4e-7,
+      "outputPrice": 0.0000043,
+      "maxCompletionTokens": 384000
     },
     {
       "id": "~deepseek/deepseek-v4-flash-latest",
@@ -115,7 +115,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.03e-8,
+      "inputPrice": 1.8e-8,
       "outputPrice": 0.00000128,
       "maxCompletionTokens": 943718
     },
@@ -170,7 +170,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 8.2e-7,
+      "inputPrice": 6.1e-7,
       "outputPrice": 0.000013,
       "maxCompletionTokens": 943718
     },
@@ -289,7 +289,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.44e-8,
+      "inputPrice": 2.14e-8,
       "outputPrice": 5e-7,
       "maxCompletionTokens": 131072
     },
@@ -304,8 +304,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3e-8,
-      "outputPrice": 0.000012,
+      "inputPrice": 6.3e-8,
+      "outputPrice": 0.0000063,
       "maxCompletionTokens": 131072
     },
     {
@@ -1388,7 +1388,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.3e-9,
+      "inputPrice": 3e-8,
       "outputPrice": 0.00000128,
       "maxCompletionTokens": 943718
     },
@@ -1403,7 +1403,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.03e-8,
+      "inputPrice": 1.8e-8,
       "outputPrice": 0.00000128,
       "maxCompletionTokens": 943718
     },
@@ -1465,8 +1465,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 5.5e-8,
-      "outputPrice": 0.00000132,
+      "inputPrice": 5e-8,
+      "outputPrice": 0.0000012,
       "maxCompletionTokens": 943718
     },
     {
@@ -2094,6 +2094,23 @@
       "maxCompletionTokens": 65536
     },
     {
+      "id": "google/gemini-nano-banana-2.1",
+      "name": "Google: Nano Banana 2.1",
+      "created": 1791300825,
+      "contextLength": 65536,
+      "inputModalities": [
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "image",
+        "text"
+      ],
+      "inputPrice": 0.0000015,
+      "outputPrice": 0.0000075,
+      "maxCompletionTokens": 58982
+    },
+    {
       "id": "google/gemma-2-27b-it",
       "name": "Google: Gemma 2 27B",
       "created": 1720828800,
@@ -2441,21 +2458,6 @@
       "maxCompletionTokens": 8192
     },
     {
-      "id": "kwaipilot/kat-coder-pro-v2.5",
-      "name": "Kwaipilot: KAT-Coder-Pro V2.5",
-      "created": 1783714589,
-      "contextLength": 262144,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "inputPrice": 7.4e-7,
-      "outputPrice": 0.00000296,
-      "maxCompletionTokens": 235929
-    },
-    {
       "id": "liquid/lfm-2.5-2.6b:free",
       "name": "LiquidAI: LFM2.5-2.6B (free)",
       "created": 1786470519,
@@ -2635,9 +2637,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.5e-7,
-      "outputPrice": 0.0000015,
-      "maxCompletionTokens": 117964
+      "inputPrice": 3e-7,
+      "outputPrice": 0.0000012,
+      "maxCompletionTokens": 16384
     },
     {
       "id": "meta/muse-spark-1.1",
@@ -3061,6 +3063,22 @@
       "maxCompletionTokens": 209715
     },
     {
+      "id": "mistralai/mistral-large-4-0",
+      "name": "Mistral: Mistral Large 4",
+      "created": 1791294122,
+      "contextLength": 524288,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 6.8e-7,
+      "outputPrice": 0.00000209,
+      "maxCompletionTokens": 262144
+    },
+    {
       "id": "mistralai/mistral-medium-3",
       "name": "Mistral: Mistral Medium 3",
       "created": 1746627341,
@@ -3361,8 +3379,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 9.5e-7,
-      "outputPrice": 0.000004,
+      "inputPrice": 4.65e-7,
+      "outputPrice": 0.00000245,
       "maxCompletionTokens": 235929
     },
     {
@@ -3394,8 +3412,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 8.3e-7,
-      "outputPrice": 0.000014,
+      "inputPrice": 6.2e-7,
+      "outputPrice": 0.000015,
       "maxCompletionTokens": 943718
     },
     {
@@ -5766,9 +5784,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1e-7,
-      "outputPrice": 3e-7,
-      "maxCompletionTokens": 235929
+      "inputPrice": 4.815e-8,
+      "outputPrice": 1.9305e-7,
+      "maxCompletionTokens": 32000
     },
     {
       "id": "qwen/qwen3-30b-a3b-thinking-2507",
@@ -6109,9 +6127,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 8e-8,
-      "outputPrice": 7.5e-7,
-      "maxCompletionTokens": 32768
+      "inputPrice": 1.5e-7,
+      "outputPrice": 0.000001,
+      "maxCompletionTokens": 235929
     },
     {
       "id": "qwen/qwen3.5-397b-a17b",
@@ -6211,9 +6229,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.2e-7,
-      "outputPrice": 0.00000325,
-      "maxCompletionTokens": 262140
+      "inputPrice": 3e-7,
+      "outputPrice": 0.000002,
+      "maxCompletionTokens": 65536
     },
     {
       "id": "qwen/qwen3.6-35b-a3b",
@@ -6799,9 +6817,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 9.5e-7,
+      "inputPrice": 0.000001,
       "outputPrice": 0.00000405,
-      "maxCompletionTokens": 262144
+      "maxCompletionTokens": 471859
     },
     {
       "id": "thinkingmachines/inkling-small",
@@ -7333,9 +7351,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 0.0000014,
-      "outputPrice": 0.0000044,
-      "maxCompletionTokens": 131072
+      "inputPrice": 9.66e-7,
+      "outputPrice": 0.000003036,
+      "maxCompletionTokens": 128000
     },
     {
       "id": "z-ai/glm-5.2",
@@ -7348,8 +7366,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.52e-7,
-      "outputPrice": 0.000012,
+      "inputPrice": 1.71e-7,
+      "outputPrice": 0.0000072,
       "maxCompletionTokens": 131072
     },
     {
