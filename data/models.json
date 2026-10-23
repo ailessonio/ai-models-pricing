@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "https://ailesson.io/llm-price/api/models",
-  "updatedAt": "2026-10-22T08:35:48.399Z",
+  "updatedAt": "2026-10-23T08:32:09.584Z",
   "modelCount": 461,
-  "paidModelCount": 440,
+  "paidModelCount": 441,
   "models": [
     {
       "id": "~anthropic/claude-fable-latest",
@@ -100,7 +100,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.235e-7,
+      "inputPrice": 2.25e-7,
       "outputPrice": 0.000008,
       "maxCompletionTokens": 393216
     },
@@ -171,7 +171,7 @@
         "text"
       ],
       "inputPrice": 2.38e-7,
-      "outputPrice": 0.000024,
+      "outputPrice": 0.000016,
       "maxCompletionTokens": 943718
     },
     {
@@ -305,9 +305,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.9e-8,
-      "outputPrice": 1.21e-7,
-      "maxCompletionTokens": 131072
+      "inputPrice": 5.2e-9,
+      "outputPrice": 1.985e-7,
+      "maxCompletionTokens": 943718
     },
     {
       "id": "~z-ai/glm-latest",
@@ -1452,8 +1452,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3e-7,
-      "outputPrice": 0.0000012,
+      "inputPrice": 1.65e-7,
+      "outputPrice": 6.6e-7,
       "maxCompletionTokens": 943718
     },
     {
@@ -2909,10 +2909,10 @@
       "maxCompletionTokens": 512000
     },
     {
-      "id": "minimax/minimax-m3.1-flash:free",
-      "name": "MiniMax: MiniMax M3.1 Flash (free)",
+      "id": "minimax/minimax-m3.1-flash",
+      "name": "MiniMax: MiniMax M3.1 Flash",
       "created": 1792379569,
-      "contextLength": 1000000,
+      "contextLength": 1048576,
       "inputModalities": [
         "text",
         "image",
@@ -2921,8 +2921,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 0,
-      "outputPrice": 0,
+      "inputPrice": 1.5e-7,
+      "outputPrice": 6e-7,
       "maxCompletionTokens": 524288
     },
     {
@@ -3310,8 +3310,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 9.375e-8,
-      "outputPrice": 2.5e-7,
+      "inputPrice": 7.5e-8,
+      "outputPrice": 2e-7,
       "maxCompletionTokens": 16384
     },
     {
@@ -6364,9 +6364,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4e-8,
-      "outputPrice": 0.00000135,
-      "maxCompletionTokens": 65536
+      "inputPrice": 2e-7,
+      "outputPrice": 0.0000025,
+      "maxCompletionTokens": 235929
     },
     {
       "id": "qwen/qwen3.8-flash",
@@ -6463,9 +6463,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3e-7,
+      "inputPrice": 2.5e-7,
       "outputPrice": 0.000001,
-      "maxCompletionTokens": 943718
+      "maxCompletionTokens": 131072
     },
     {
       "id": "rekaai/reka-edge",
@@ -7451,9 +7451,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 7.9e-8,
-      "outputPrice": 0.0000014,
-      "maxCompletionTokens": 943718
+      "inputPrice": 7e-7,
+      "outputPrice": 0.0000022,
+      "maxCompletionTokens": 262144
     },
     {
       "id": "z-ai/glm-5.3-flash",
@@ -7468,9 +7468,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.9e-8,
-      "outputPrice": 1.21e-7,
-      "maxCompletionTokens": 131072
+      "inputPrice": 5.2e-9,
+      "outputPrice": 1.985e-7,
+      "maxCompletionTokens": 943718
     },
     {
       "id": "z-ai/glm-5.3-flash:batch",
