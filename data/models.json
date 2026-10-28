@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "https://ailesson.io/llm-price/api/models",
-  "updatedAt": "2026-10-27T08:58:53.873Z",
+  "updatedAt": "2026-10-28T09:39:17.640Z",
   "modelCount": 457,
-  "paidModelCount": 437,
+  "paidModelCount": 438,
   "models": [
     {
       "id": "~anthropic/claude-fable-latest",
@@ -85,8 +85,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2e-8,
-      "outputPrice": 2.8561e-8,
+      "inputPrice": 1.15e-8,
+      "outputPrice": 0.0000018,
       "maxCompletionTokens": 943718
     },
     {
@@ -100,7 +100,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.381e-7,
+      "inputPrice": 2.542e-7,
       "outputPrice": 0.000008,
       "maxCompletionTokens": 393216
     },
@@ -170,8 +170,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.9e-7,
-      "outputPrice": 0.00000894,
+      "inputPrice": 1.7e-7,
+      "outputPrice": 0.0000101583,
       "maxCompletionTokens": 943718
     },
     {
@@ -305,9 +305,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4.13e-8,
-      "outputPrice": 7.58e-8,
-      "maxCompletionTokens": 131072
+      "inputPrice": 2.73e-8,
+      "outputPrice": 6.85e-8,
+      "maxCompletionTokens": 943718
     },
     {
       "id": "~z-ai/glm-latest",
@@ -320,9 +320,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 7.03e-8,
-      "outputPrice": 0.0000043843,
-      "maxCompletionTokens": 131072
+      "inputPrice": 6.99e-8,
+      "outputPrice": 0.0000014,
+      "maxCompletionTokens": 943718
     },
     {
       "id": "aion-labs/aion-2.0",
@@ -2155,9 +2155,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4e-8,
-      "outputPrice": 5e-8,
-      "maxCompletionTokens": 117964
+      "inputPrice": 5e-8,
+      "outputPrice": 1e-7,
+      "maxCompletionTokens": 16384
     },
     {
       "id": "google/gemma-4-26b-a4b-it",
@@ -2172,8 +2172,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 7.65e-8,
-      "outputPrice": 2.55e-7,
+      "inputPrice": 9e-8,
+      "outputPrice": 3e-7,
       "maxCompletionTokens": 235929
     },
     {
@@ -2372,7 +2372,7 @@
       "id": "inclusionai/ling-3.1-flash",
       "name": "inclusionAI: Ling 3.1 Flash",
       "created": 1790950024,
-      "contextLength": 262144,
+      "contextLength": 1000000,
       "inputModalities": [
         "text"
       ],
@@ -2381,7 +2381,7 @@
       ],
       "inputPrice": 7.5e-8,
       "outputPrice": 2.25e-7,
-      "maxCompletionTokens": 235929
+      "maxCompletionTokens": 262144
     },
     {
       "id": "inference-net/schematron-v2-small",
@@ -2514,9 +2514,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 5e-8,
-      "outputPrice": 8e-8,
-      "maxCompletionTokens": 117964
+      "inputPrice": 2e-8,
+      "outputPrice": 4e-8,
+      "maxCompletionTokens": 16384
     },
     {
       "id": "meta-llama/llama-3.2-1b-instruct",
@@ -3579,21 +3579,6 @@
       ],
       "inputPrice": 3e-7,
       "outputPrice": 0.0000024,
-      "maxCompletionTokens": 235929
-    },
-    {
-      "id": "nvidia/nemotron-3-super-120b-a12b:free",
-      "name": "NVIDIA: Nemotron 3 Super (free)",
-      "created": 1773245239,
-      "contextLength": 262144,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "inputPrice": 0,
-      "outputPrice": 0,
       "maxCompletionTokens": 235929
     },
     {
@@ -5692,6 +5677,22 @@
       "maxCompletionTokens": 32768
     },
     {
+      "id": "prism-ml/ternary-bonsai-2-9b",
+      "name": "PrismML: Ternary Bonsai 2 9B",
+      "created": 1792130995,
+      "contextLength": 262144,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 8e-8,
+      "outputPrice": 1.3e-7,
+      "maxCompletionTokens": 65536
+    },
+    {
       "id": "qwen/qwen-2.5-72b-instruct",
       "name": "Qwen2.5 72B Instruct",
       "created": 1726704000,
@@ -6160,9 +6161,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.2e-7,
-      "outputPrice": 0.0000032,
-      "maxCompletionTokens": 81920
+      "inputPrice": 4.5e-7,
+      "outputPrice": 0.0000027,
+      "maxCompletionTokens": 65536
     },
     {
       "id": "qwen/qwen3.6-35b-a3b",
@@ -6178,7 +6179,7 @@
         "text"
       ],
       "inputPrice": 1e-7,
-      "outputPrice": 9.5e-7,
+      "outputPrice": 9e-7,
       "maxCompletionTokens": 235929
     },
     {
@@ -6307,9 +6308,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2e-7,
-      "outputPrice": 0.0000025,
-      "maxCompletionTokens": 235929
+      "inputPrice": 3.9e-8,
+      "outputPrice": 0.00000125,
+      "maxCompletionTokens": 65536
     },
     {
       "id": "qwen/qwen3.8-flash",
@@ -7364,9 +7365,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 9.66e-7,
-      "outputPrice": 0.000003036,
-      "maxCompletionTokens": 128000
+      "inputPrice": 0.0000014,
+      "outputPrice": 0.0000044,
+      "maxCompletionTokens": 131072
     },
     {
       "id": "z-ai/glm-5.2",
@@ -7379,7 +7380,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.41e-8,
+      "inputPrice": 1.4e-8,
       "outputPrice": 0.000007,
       "maxCompletionTokens": 943718
     },
@@ -7394,7 +7395,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 7.69e-8,
+      "inputPrice": 6.99e-8,
       "outputPrice": 0.0000014,
       "maxCompletionTokens": 943718
     },
