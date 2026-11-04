@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "https://ailesson.io/llm-price/api/models",
-  "updatedAt": "2026-11-03T10:51:41.545Z",
-  "modelCount": 444,
-  "paidModelCount": 427,
+  "updatedAt": "2026-11-04T10:54:13.810Z",
+  "modelCount": 448,
+  "paidModelCount": 430,
   "models": [
     {
       "id": "~anthropic/claude-fable-latest",
@@ -85,8 +85,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.5e-8,
-      "outputPrice": 3.15e-7,
+      "inputPrice": 3.2e-8,
+      "outputPrice": 2.88e-7,
       "maxCompletionTokens": 943718
     },
     {
@@ -170,8 +170,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.824e-7,
-      "outputPrice": 0.0000093388,
+      "inputPrice": 1.9e-7,
+      "outputPrice": 0.00000894,
       "maxCompletionTokens": 943718
     },
     {
@@ -305,8 +305,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.85e-8,
-      "outputPrice": 9.23e-8,
+      "inputPrice": 2.69e-8,
+      "outputPrice": 9.96e-8,
       "maxCompletionTokens": 131072
     },
     {
@@ -1422,7 +1422,7 @@
         "text"
       ],
       "inputPrice": 1.15e-7,
-      "outputPrice": 0.000004,
+      "outputPrice": 0.0000046,
       "maxCompletionTokens": 943718
     },
     {
@@ -2172,8 +2172,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1e-7,
-      "outputPrice": 3e-7,
+      "inputPrice": 6.8e-8,
+      "outputPrice": 2.03e-7,
       "maxCompletionTokens": 32768
     },
     {
@@ -2288,7 +2288,7 @@
         "text"
       ],
       "inputPrice": 6e-8,
-      "outputPrice": 1.5e-7,
+      "outputPrice": 2.5e-7,
       "maxCompletionTokens": 117964
     },
     {
@@ -2499,9 +2499,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4e-7,
-      "outputPrice": 4e-7,
-      "maxCompletionTokens": 16384
+      "inputPrice": 7.2e-7,
+      "outputPrice": 7.2e-7,
+      "maxCompletionTokens": 8192
     },
     {
       "id": "meta-llama/llama-3.1-8b-instruct",
@@ -2559,9 +2559,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2e-7,
-      "outputPrice": 5.2e-7,
-      "maxCompletionTokens": 128000
+      "inputPrice": 1e-7,
+      "outputPrice": 3.2e-7,
+      "maxCompletionTokens": 16384
     },
     {
       "id": "meta-llama/llama-4-maverick",
@@ -3388,8 +3388,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.92e-7,
-      "outputPrice": 0.000015,
+      "inputPrice": 2e-7,
+      "outputPrice": 0.000016,
       "maxCompletionTokens": 943718
     },
     {
@@ -3658,7 +3658,7 @@
       ],
       "inputPrice": 1.5e-7,
       "outputPrice": 5e-7,
-      "maxCompletionTokens": 235929
+      "maxCompletionTokens": 943718
     },
     {
       "id": "nvidia/nemotron-3.5-super-vl:free",
@@ -5176,8 +5176,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.8e-8,
-      "outputPrice": 1.02e-7,
+      "inputPrice": 1.5e-7,
+      "outputPrice": 6e-7,
       "maxCompletionTokens": 65536
     },
     {
@@ -6400,6 +6400,25 @@
       "maxCompletionTokens": 4000
     },
     {
+      "id": "stealth/crouton-alpha",
+      "name": "Crouton Alpha",
+      "created": 1793669930,
+      "contextLength": 1048576,
+      "inputModalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0,
+      "outputPrice": 0,
+      "maxCompletionTokens": 943718
+    },
+    {
       "id": "stepfun/step-3.5-flash",
       "name": "StepFun: Step 3.5 Flash",
       "created": 1769728337,
@@ -6537,6 +6556,22 @@
       "inputPrice": 1.8e-7,
       "outputPrice": 6e-7,
       "maxCompletionTokens": 235929
+    },
+    {
+      "id": "tencent/hy4",
+      "name": "Tencent: Hy4",
+      "created": 1793766031,
+      "contextLength": 1048576,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 4.17e-7,
+      "outputPrice": 0.0000012505,
+      "maxCompletionTokens": 65536
     },
     {
       "id": "tencent/hy4-preview",
@@ -6861,6 +6896,23 @@
       "maxCompletionTokens": 450000
     },
     {
+      "id": "x-ai/grok-4.6:batch",
+      "name": "SpaceXAI: Grok 4.6 (batch)",
+      "created": 1786548957,
+      "contextLength": 500000,
+      "inputModalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0.0000016,
+      "outputPrice": 0.0000048,
+      "maxCompletionTokens": 450000
+    },
+    {
       "id": "x-ai/grok-4.7",
       "name": "SpaceXAI: Grok 4.7",
       "created": 1790007541,
@@ -6875,6 +6927,23 @@
       ],
       "inputPrice": 0.000002,
       "outputPrice": 0.000006,
+      "maxCompletionTokens": 450000
+    },
+    {
+      "id": "x-ai/grok-4.7:batch",
+      "name": "SpaceXAI: Grok 4.7 (batch)",
+      "created": 1790007541,
+      "contextLength": 500000,
+      "inputModalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0.0000016,
+      "outputPrice": 0.0000048,
       "maxCompletionTokens": 450000
     },
     {
@@ -6898,7 +6967,7 @@
       "id": "xiaomi/mimo-v2.5",
       "name": "Xiaomi: MiMo-V2.5",
       "created": 1776874269,
-      "contextLength": 1050000,
+      "contextLength": 1000000,
       "inputModalities": [
         "text",
         "audio",
@@ -7192,8 +7261,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.85e-8,
-      "outputPrice": 9.23e-8,
+      "inputPrice": 2.69e-8,
+      "outputPrice": 9.96e-8,
       "maxCompletionTokens": 131072
     },
     {
