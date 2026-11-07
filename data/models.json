@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "https://ailesson.io/llm-price/api/models",
-  "updatedAt": "2026-11-06T10:51:38.667Z",
-  "modelCount": 445,
-  "paidModelCount": 430,
+  "updatedAt": "2026-11-07T10:06:32.796Z",
+  "modelCount": 452,
+  "paidModelCount": 436,
   "models": [
     {
       "id": "~anthropic/claude-fable-latest",
@@ -115,9 +115,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 5.9e-8,
-      "outputPrice": 3e-7,
-      "maxCompletionTokens": 943718
+      "inputPrice": 5.104e-8,
+      "outputPrice": 1.5312e-7,
+      "maxCompletionTokens": 131072
     },
     {
       "id": "~google/gemini-flash-latest",
@@ -170,8 +170,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.824e-7,
-      "outputPrice": 0.0000093388,
+      "inputPrice": 1.529e-7,
+      "outputPrice": 0.0000097471,
       "maxCompletionTokens": 943718
     },
     {
@@ -305,7 +305,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.84e-8,
+      "inputPrice": 2.85e-8,
       "outputPrice": 9.23e-8,
       "maxCompletionTokens": 131072
     },
@@ -1375,9 +1375,24 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 5.9e-8,
+      "inputPrice": 5.14e-8,
       "outputPrice": 3e-7,
       "maxCompletionTokens": 943718
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-0731:batch",
+      "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
+      "created": 1785478908,
+      "contextLength": 1048576,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 4.8e-8,
+      "outputPrice": 1.44e-7,
+      "maxCompletionTokens": 384000
     },
     {
       "id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -1406,8 +1421,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 9.5526e-7,
-      "outputPrice": 0.00000191052,
+      "inputPrice": 7.88916e-7,
+      "outputPrice": 0.000001577832,
       "maxCompletionTokens": 384000
     },
     {
@@ -1453,8 +1468,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3e-7,
-      "outputPrice": 0.0000012,
+      "inputPrice": 1.5e-7,
+      "outputPrice": 6e-7,
       "maxCompletionTokens": 393216
     },
     {
@@ -2208,8 +2223,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 9e-8,
-      "outputPrice": 3e-7,
+      "inputPrice": 6.75e-8,
+      "outputPrice": 2.25e-7,
       "maxCompletionTokens": 235929
     },
     {
@@ -2430,8 +2445,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 7.5e-8,
-      "outputPrice": 2.25e-7,
+      "inputPrice": 4.5e-8,
+      "outputPrice": 1.35e-7,
       "maxCompletionTokens": 262144
     },
     {
@@ -2507,6 +2522,36 @@
       ],
       "inputPrice": 5e-8,
       "outputPrice": 7e-7,
+      "maxCompletionTokens": 8192
+    },
+    {
+      "id": "liquid/lfm-3-1.7b",
+      "name": "LiquidAI: LFM3-1.7B",
+      "created": 1794009477,
+      "contextLength": 262144,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 8e-8,
+      "outputPrice": 2e-7,
+      "maxCompletionTokens": 8192
+    },
+    {
+      "id": "liquid/lfm-3-1.7b:free",
+      "name": "LiquidAI: LFM3-1.7B (free)",
+      "created": 1794009477,
+      "contextLength": 262144,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0,
+      "outputPrice": 0,
       "maxCompletionTokens": 8192
     },
     {
@@ -2679,6 +2724,22 @@
       "maxCompletionTokens": 16384
     },
     {
+      "id": "meta/muse-glimmer-30b:batch",
+      "name": "Meta: Muse Glimmer 30B (batch)",
+      "created": 1786302394,
+      "contextLength": 131072,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 2.4e-7,
+      "outputPrice": 9.6e-7,
+      "maxCompletionTokens": 16384
+    },
+    {
       "id": "meta/muse-spark-1.1",
       "name": "Meta: Muse Spark 1.1",
       "created": 1784215741,
@@ -2847,9 +2908,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.7e-7,
-      "outputPrice": 9.5e-7,
-      "maxCompletionTokens": 32768
+      "inputPrice": 3e-7,
+      "outputPrice": 0.0000012,
+      "maxCompletionTokens": 58982
     },
     {
       "id": "minimax/minimax-m2.7",
@@ -2881,6 +2942,23 @@
       ],
       "inputPrice": 3e-7,
       "outputPrice": 0.0000012,
+      "maxCompletionTokens": 512000
+    },
+    {
+      "id": "minimax/minimax-m3:batch",
+      "name": "MiniMax: MiniMax M3 (batch)",
+      "created": 1780245374,
+      "contextLength": 524288,
+      "inputModalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 2.24e-7,
+      "outputPrice": 8.8e-7,
       "maxCompletionTokens": 512000
     },
     {
@@ -3537,9 +3615,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3e-7,
-      "outputPrice": 0.0000024,
-      "maxCompletionTokens": 262144
+      "inputPrice": 7.5e-8,
+      "outputPrice": 4e-7,
+      "maxCompletionTokens": 16384
     },
     {
       "id": "nvidia/nemotron-3-ultra-550b-a55b",
@@ -5150,8 +5228,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2e-8,
-      "outputPrice": 7.5e-8,
+      "inputPrice": 1.6e-8,
+      "outputPrice": 6.1e-8,
       "maxCompletionTokens": 65536
     },
     {
@@ -6082,6 +6160,23 @@
       "maxCompletionTokens": 235929
     },
     {
+      "id": "qwen/qwen3.8-27b:batch",
+      "name": "Qwen: Qwen3.8 27B (batch)",
+      "created": 1786722910,
+      "contextLength": 262144,
+      "inputModalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 1.6e-7,
+      "outputPrice": 0.000002,
+      "maxCompletionTokens": 235929
+    },
+    {
       "id": "qwen/qwen3.8-flash",
       "name": "Qwen: Qwen3.8 Flash",
       "created": 1787773060,
@@ -6244,7 +6339,7 @@
     },
     {
       "id": "ricursiveai/ripple-65b-preview",
-      "name": "ricursiveAI/Ripple-65B-Preview",
+      "name": "Ricursive: Ripple 65B Preview",
       "created": 1793818990,
       "contextLength": 1048576,
       "inputModalities": [
@@ -6654,6 +6749,23 @@
       ],
       "inputPrice": 4.5e-7,
       "outputPrice": 0.0000012,
+      "maxCompletionTokens": 262144
+    },
+    {
+      "id": "thinkingmachines/inkling-small:batch",
+      "name": "Thinking Machines: Inkling Small (batch)",
+      "created": 1785443117,
+      "contextLength": 524288,
+      "inputModalities": [
+        "text",
+        "image",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 3.6e-7,
+      "outputPrice": 9.6e-7,
       "maxCompletionTokens": 262144
     },
     {
