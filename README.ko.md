@@ -12,7 +12,7 @@
 
 **[AILesson에서 모델 비교 및 비용 계산](https://ailesson.io/ko/llm-price)**
 
-**데이터 최종 변경일:** 2026-11-08 · **437 유료 모델** · **54 제공업체**
+**데이터 최종 변경일:** 2026-11-09 · **437 유료 모델** · **54 제공업체**
 
 | 모델 | 제공업체 | 입력 / 100만 토큰 | 출력 / 100만 토큰 | 컨텍스트 | 입력 모달리티 | 출시일 |
 | --- | --- | ---: | ---: | ---: | --- | ---: |
@@ -124,7 +124,7 @@
 | [Z.ai: GLM Latest](https://ailesson.io/ko/llm-price/model/~z-ai-glm-latest) | Z.ai | $0.0699 | $1.40 | 1,048,576 | text | 2026-08-19 |
 | [Tencent: Hy-MT2-7B](https://ailesson.io/ko/llm-price/model/tencent-hy-mt2-7b) | Tencent | $0.074 | $0.295 | 8,192 | text | 2026-08-19 |
 | [Z.ai: GLM 5.3](https://ailesson.io/ko/llm-price/model/z-ai-glm-5-3) | Z.ai | $0.0699 | $1.40 | 1,048,576 | text | 2026-08-18 |
-| [Z.ai: GLM 5.3 (batch)](https://ailesson.io/ko/llm-price/model/z-ai-glm-5-3-batch) | Z.ai | $0.37 | $1.50 | 1,048,576 | text | 2026-08-18 |
+| [Z.ai: GLM 5.3 (batch)](https://ailesson.io/ko/llm-price/model/z-ai-glm-5-3-batch) | Z.ai | $0.45 | $2.00 | 1,048,576 | text | 2026-08-18 |
 | [Qwen: Qwen3.8 27B](https://ailesson.io/ko/llm-price/model/qwen-qwen3-8-27b) | Qwen | $0.15 | $1.875 | 1,024,000 | text, image, video | 2026-08-14 |
 | [Qwen: Qwen3.8 27B (batch)](https://ailesson.io/ko/llm-price/model/qwen-qwen3-8-27b-batch) | Qwen | $0.16 | $2.00 | 262,144 | text, image, video | 2026-08-14 |
 | [Google: Gemini 3.7 Flash](https://ailesson.io/ko/llm-price/model/google-gemini-3-7-flash) | Google | $0.75 | $3.75 | 1,048,576 | text, image, video, file, audio | 2026-08-13 |
@@ -159,7 +159,7 @@
 | [Meituan: LongCat 2.0](https://ailesson.io/ko/llm-price/model/meituan-longcat-2-0) | Meituan | $0.30 | $1.20 | 1,048,756 | text | 2026-07-20 |
 | [Thinking Machines: Inkling](https://ailesson.io/ko/llm-price/model/thinkingmachines-inkling) | Thinkingmachines | $1.00 | $4.05 | 524,288 | text, image, audio | 2026-07-17 |
 | [MoonshotAI: Kimi K3](https://ailesson.io/ko/llm-price/model/moonshotai-kimi-k3) | Moonshot AI | $0.192 | $16.00 | 1,048,576 | text, image, video | 2026-07-16 |
-| [MoonshotAI: Kimi K3 (batch)](https://ailesson.io/ko/llm-price/model/moonshotai-kimi-k3-batch) | Moonshot AI | $0.997 | $6.00 | 1,048,576 | text, image, video | 2026-07-16 |
+| [MoonshotAI: Kimi K3 (batch)](https://ailesson.io/ko/llm-price/model/moonshotai-kimi-k3-batch) | Moonshot AI | $0.917 | $6.00 | 1,048,576 | text, image, video | 2026-07-16 |
 | [Meta: Muse Spark 1.1](https://ailesson.io/ko/llm-price/model/meta-muse-spark-1-1) | Meta | $1.25 | $4.25 | 1,048,576 | text, image, video, file | 2026-07-16 |
 | [OpenAI: GPT-5.6 Luna Pro](https://ailesson.io/ko/llm-price/model/openai-gpt-5-6-luna-pro) | OpenAI | $0.20 | $1.20 | 1,050,000 | file, image, text | 2026-07-09 |
 | [OpenAI: GPT-5.6 Luna Pro (batch)](https://ailesson.io/ko/llm-price/model/openai-gpt-5-6-luna-pro-batch) | OpenAI | $0.10 | $0.60 | 1,050,000 | file, image, text | 2026-07-09 |
@@ -185,7 +185,7 @@
 | [Google: Nano Banana 2 (Gemini 3.1 Flash Image)](https://ailesson.io/ko/llm-price/model/google-gemini-3-1-flash-image) | Google | $0.50 | $3.00 | 131,072 | image, text | 2026-06-18 |
 | [Google: Nano Banana Pro (Gemini 3 Pro Image)](https://ailesson.io/ko/llm-price/model/google-gemini-3-pro-image) | Google | $2.00 | $12.00 | 131,072 | image, text | 2026-06-18 |
 | [Z.ai: GLM 5.2](https://ailesson.io/ko/llm-price/model/z-ai-glm-5-2) | Z.ai | $0.006 | $6.80 | 1,048,576 | text | 2026-06-16 |
-| [Z.ai: GLM 5.2 (batch)](https://ailesson.io/ko/llm-price/model/z-ai-glm-5-2-batch) | Z.ai | $0.37 | $1.50 | 1,048,576 | text | 2026-06-16 |
+| [Z.ai: GLM 5.2 (batch)](https://ailesson.io/ko/llm-price/model/z-ai-glm-5-2-batch) | Z.ai | $0.623 | $1.271 | 1,048,576 | text | 2026-06-16 |
 | [MoonshotAI: Kimi K2.7 Code](https://ailesson.io/ko/llm-price/model/moonshotai-kimi-k2-7-code) | Moonshot AI | $0.60 | $3.50 | 262,144 | text, image | 2026-06-12 |
 | [Anthropic: Claude Fable Latest](https://ailesson.io/ko/llm-price/model/~anthropic-claude-fable-latest) | Anthropic | $10.00 | $50.00 | 1,000,000 | text, image, file | 2026-06-09 |
 | [Anthropic: Claude Fable 5](https://ailesson.io/ko/llm-price/model/anthropic-claude-fable-5) | Anthropic | $10.00 | $50.00 | 1,000,000 | text, image, file | 2026-06-09 |
@@ -214,7 +214,7 @@
 | [Anthropic: Claude Haiku Latest](https://ailesson.io/ko/llm-price/model/~anthropic-claude-haiku-latest) | Anthropic | $0.10 | $0.50 | 1,000,000 | text, image, file | 2026-04-27 |
 | [OpenAI: GPT Mini Latest](https://ailesson.io/ko/llm-price/model/~openai-gpt-mini-latest) | OpenAI | $0.75 | $4.50 | 400,000 | file, image, text | 2026-04-27 |
 | [Google: Gemini Pro Latest](https://ailesson.io/ko/llm-price/model/~google-gemini-pro-latest) | Google | $2.00 | $10.00 | 1,048,576 | audio, file, image, text, video | 2026-04-27 |
-| [MoonshotAI: Kimi Latest](https://ailesson.io/ko/llm-price/model/~moonshotai-kimi-latest) | Moonshot AI | $0.1586 | $9.3388 | 1,048,576 | text, image, video | 2026-04-27 |
+| [MoonshotAI: Kimi Latest](https://ailesson.io/ko/llm-price/model/~moonshotai-kimi-latest) | Moonshot AI | $0.1634 | $10.1489 | 1,048,576 | text, image, video | 2026-04-27 |
 | [Google: Gemini Flash Latest](https://ailesson.io/ko/llm-price/model/~google-gemini-flash-latest) | Google | $0.75 | $3.75 | 1,048,576 | text, image, video, file, audio | 2026-04-27 |
 | [Anthropic: Claude Sonnet Latest](https://ailesson.io/ko/llm-price/model/~anthropic-claude-sonnet-latest) | Anthropic | $2.00 | $10.00 | 1,000,000 | text, image, file | 2026-04-27 |
 | [Qwen: Qwen3.5 Plus 2026-04-20](https://ailesson.io/ko/llm-price/model/qwen-qwen3-5-plus-20260420) | Qwen | $0.30 | $1.80 | 1,000,000 | text, image, video | 2026-04-27 |
@@ -225,7 +225,7 @@
 | [OpenAI: GPT-5.5 Pro (batch)](https://ailesson.io/ko/llm-price/model/openai-gpt-5-5-pro-batch) | OpenAI | $15.00 | $90.00 | 1,050,000 | file, image, text | 2026-04-24 |
 | [OpenAI: GPT-5.5](https://ailesson.io/ko/llm-price/model/openai-gpt-5-5) | OpenAI | $5.00 | $30.00 | 1,050,000 | file, image, text | 2026-04-24 |
 | [OpenAI: GPT-5.5 (batch)](https://ailesson.io/ko/llm-price/model/openai-gpt-5-5-batch) | OpenAI | $2.50 | $15.00 | 1,050,000 | file, image, text | 2026-04-24 |
-| [DeepSeek: DeepSeek V4 Pro 0423](https://ailesson.io/ko/llm-price/model/deepseek-deepseek-v4-pro) | DeepSeek | $0.322596 | $0.645192 | 1,048,576 | text | 2026-04-24 |
+| [DeepSeek: DeepSeek V4 Pro 0423](https://ailesson.io/ko/llm-price/model/deepseek-deepseek-v4-pro) | DeepSeek | $0.95526 | $1.91052 | 1,048,576 | text | 2026-04-24 |
 | [DeepSeek: DeepSeek V4 Flash 0423](https://ailesson.io/ko/llm-price/model/deepseek-deepseek-v4-flash) | DeepSeek | $0.091 | $0.182 | 1,048,576 | text | 2026-04-24 |
 | [Tencent: Hy3 preview](https://ailesson.io/ko/llm-price/model/tencent-hy3-preview) | Tencent | $0.18 | $0.60 | 262,144 | text | 2026-04-22 |
 | [Xiaomi: MiMo-V2.5-Pro](https://ailesson.io/ko/llm-price/model/xiaomi-mimo-v2-5-pro) | Xiaomi | $0.48 | $1.80 | 1,050,000 | text | 2026-04-22 |
@@ -236,7 +236,7 @@
 | [Anthropic: Claude Opus 4.7](https://ailesson.io/ko/llm-price/model/anthropic-claude-opus-4-7) | Anthropic | $5.00 | $25.00 | 1,000,000 | text, image, file | 2026-04-16 |
 | [Anthropic: Claude Opus 4.7 (batch)](https://ailesson.io/ko/llm-price/model/anthropic-claude-opus-4-7-batch) | Anthropic | $2.50 | $12.50 | 1,000,000 | text, image, file | 2026-04-16 |
 | [Z.ai: GLM 5.1](https://ailesson.io/ko/llm-price/model/z-ai-glm-5-1) | Z.ai | $1.40 | $4.40 | 204,800 | text | 2026-04-07 |
-| [Google: Gemma 4 26B A4B](https://ailesson.io/ko/llm-price/model/google-gemma-4-26b-a4b-it) | Google | $0.0675 | $0.225 | 262,144 | image, text, video | 2026-04-03 |
+| [Google: Gemma 4 26B A4B](https://ailesson.io/ko/llm-price/model/google-gemma-4-26b-a4b-it) | Google | $0.09 | $0.30 | 262,144 | image, text, video | 2026-04-03 |
 | [Google: Gemma 4 31B](https://ailesson.io/ko/llm-price/model/google-gemma-4-31b-it) | Google | $0.20 | $0.40 | 262,144 | image, text, video | 2026-04-02 |
 | [Qwen: Qwen3.6 Plus](https://ailesson.io/ko/llm-price/model/qwen-qwen3-6-plus) | Qwen | $0.325 | $1.95 | 1,000,000 | text, image, video | 2026-04-02 |
 | [Z.ai: GLM 5V Turbo](https://ailesson.io/ko/llm-price/model/z-ai-glm-5v-turbo) | Z.ai | $1.20 | $4.00 | 202,752 | image, text, video | 2026-04-01 |
@@ -272,7 +272,7 @@
 | [Anthropic: Claude Sonnet 4.6](https://ailesson.io/ko/llm-price/model/anthropic-claude-sonnet-4-6) | Anthropic | $3.00 | $15.00 | 1,000,000 | text, image, file | 2026-02-17 |
 | [Anthropic: Claude Sonnet 4.6 (batch)](https://ailesson.io/ko/llm-price/model/anthropic-claude-sonnet-4-6-batch) | Anthropic | $1.50 | $7.50 | 1,000,000 | text, image, file | 2026-02-17 |
 | [Qwen: Qwen3.5 Plus 2026-02-15](https://ailesson.io/ko/llm-price/model/qwen-qwen3-5-plus-02-15) | Qwen | $0.26 | $1.56 | 1,000,000 | text, image, video | 2026-02-16 |
-| [Qwen: Qwen3.5 397B A17B](https://ailesson.io/ko/llm-price/model/qwen-qwen3-5-397b-a17b) | Qwen | $0.50 | $3.60 | 262,144 | text, image, video | 2026-02-16 |
+| [Qwen: Qwen3.5 397B A17B](https://ailesson.io/ko/llm-price/model/qwen-qwen3-5-397b-a17b) | Qwen | $0.60 | $3.60 | 262,144 | text, image, video | 2026-02-16 |
 | [MiniMax: MiniMax M2.5](https://ailesson.io/ko/llm-price/model/minimax-minimax-m2-5) | MiniMax | $0.30 | $1.20 | 204,800 | text | 2026-02-12 |
 | [Z.ai: GLM 5](https://ailesson.io/ko/llm-price/model/z-ai-glm-5) | Z.ai | $1.00 | $3.20 | 204,800 | text | 2026-02-11 |
 | [Anthropic: Claude Opus 4.6](https://ailesson.io/ko/llm-price/model/anthropic-claude-opus-4-6) | Anthropic | $5.00 | $25.00 | 1,000,000 | text, image, file | 2026-02-04 |
@@ -401,7 +401,7 @@
 | [Google: Gemma 3 12B](https://ailesson.io/ko/llm-price/model/google-gemma-3-12b-it) | Google | $0.05 | $0.15 | 131,072 | text, image | 2025-03-13 |
 | [Cohere: Command A](https://ailesson.io/ko/llm-price/model/cohere-command-a) | Cohere | $2.50 | $10.00 | 256,000 | text | 2025-03-13 |
 | [Reka Flash 3](https://ailesson.io/ko/llm-price/model/rekaai-reka-flash-3) | Rekaai | $0.10 | $0.20 | 65,536 | text | 2025-03-12 |
-| [Google: Gemma 3 27B](https://ailesson.io/ko/llm-price/model/google-gemma-3-27b-it) | Google | $0.08 | $0.35 | 131,072 | text, image | 2025-03-12 |
+| [Google: Gemma 3 27B](https://ailesson.io/ko/llm-price/model/google-gemma-3-27b-it) | Google | $0.08 | $0.45 | 131,072 | text, image | 2025-03-12 |
 | [TheDrummer: Skyfall 36B V2](https://ailesson.io/ko/llm-price/model/thedrummer-skyfall-36b-v2) | Thedrummer | $0.55 | $0.80 | 32,768 | text | 2025-03-10 |
 | [Perplexity: Sonar Reasoning Pro](https://ailesson.io/ko/llm-price/model/perplexity-sonar-reasoning-pro) | Perplexity | $2.00 | $8.00 | 128,000 | text, image | 2025-03-07 |
 | [Perplexity: Sonar Pro](https://ailesson.io/ko/llm-price/model/perplexity-sonar-pro) | Perplexity | $3.00 | $15.00 | 200,000 | text, image | 2025-03-07 |
@@ -435,7 +435,7 @@
 | [Sao10K: Llama 3 8B Lunaris](https://ailesson.io/ko/llm-price/model/sao10k-l3-lunaris-8b) | Sao10k | $0.04 | $0.05 | 8,192 | text | 2024-08-13 |
 | [OpenAI: GPT-4o (2024-08-06)](https://ailesson.io/ko/llm-price/model/openai-gpt-4o-2024-08-06) | OpenAI | $2.50 | $10.00 | 128,000 | text, image, file | 2024-08-06 |
 | [Meta: Llama 3.1 70B Instruct](https://ailesson.io/ko/llm-price/model/meta-llama-llama-3-1-70b-instruct) | Meta | $0.72 | $0.72 | 131,072 | text | 2024-07-23 |
-| [Meta: Llama 3.1 8B Instruct](https://ailesson.io/ko/llm-price/model/meta-llama-llama-3-1-8b-instruct) | Meta | $0.05 | $0.08 | 131,072 | text | 2024-07-23 |
+| [Meta: Llama 3.1 8B Instruct](https://ailesson.io/ko/llm-price/model/meta-llama-llama-3-1-8b-instruct) | Meta | $0.02 | $0.04 | 131,072 | text | 2024-07-23 |
 | [Mistral: Mistral Nemo](https://ailesson.io/ko/llm-price/model/mistralai-mistral-nemo) | Mistral AI | $0.029 | $0.03 | 131,072 | text | 2024-07-19 |
 | [OpenAI: GPT-4o-mini](https://ailesson.io/ko/llm-price/model/openai-gpt-4o-mini) | OpenAI | $0.15 | $0.60 | 128,000 | text, image, file | 2024-07-18 |
 | [OpenAI: GPT-4o-mini (2024-07-18)](https://ailesson.io/ko/llm-price/model/openai-gpt-4o-mini-2024-07-18) | OpenAI | $0.15 | $0.60 | 128,000 | text, image, file | 2024-07-18 |

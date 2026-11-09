@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "https://ailesson.io/llm-price/api/models",
-  "updatedAt": "2026-11-08T10:21:07.166Z",
+  "updatedAt": "2026-11-09T11:29:51.115Z",
   "modelCount": 453,
   "paidModelCount": 437,
   "models": [
@@ -170,8 +170,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.586e-7,
-      "outputPrice": 0.0000093388,
+      "inputPrice": 1.634e-7,
+      "outputPrice": 0.0000101489,
       "maxCompletionTokens": 943718
     },
     {
@@ -1421,8 +1421,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.22596e-7,
-      "outputPrice": 6.45192e-7,
+      "inputPrice": 9.5526e-7,
+      "outputPrice": 0.00000191052,
       "maxCompletionTokens": 384000
     },
     {
@@ -2207,7 +2207,7 @@
         "text"
       ],
       "inputPrice": 8e-8,
-      "outputPrice": 3.5e-7,
+      "outputPrice": 4.5e-7,
       "maxCompletionTokens": 117964
     },
     {
@@ -2239,8 +2239,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 6.75e-8,
-      "outputPrice": 2.25e-7,
+      "inputPrice": 9e-8,
+      "outputPrice": 3e-7,
       "maxCompletionTokens": 235929
     },
     {
@@ -2581,9 +2581,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 5e-8,
-      "outputPrice": 8e-8,
-      "maxCompletionTokens": 117964
+      "inputPrice": 2e-8,
+      "outputPrice": 4e-8,
+      "maxCompletionTokens": 16384
     },
     {
       "id": "meta-llama/llama-3.2-1b-instruct",
@@ -2817,7 +2817,7 @@
       ],
       "inputPrice": 0.00000125,
       "outputPrice": 0.00000425,
-      "maxCompletionTokens": 943718
+      "maxCompletionTokens": 131072
     },
     {
       "id": "meta/muse-wonder",
@@ -3444,7 +3444,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 9.97e-7,
+      "inputPrice": 9.17e-7,
       "outputPrice": 0.000006,
       "maxCompletionTokens": 943718
     },
@@ -5924,9 +5924,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 5e-7,
+      "inputPrice": 6e-7,
       "outputPrice": 0.0000036,
-      "maxCompletionTokens": 235929
+      "maxCompletionTokens": 64000
     },
     {
       "id": "qwen/qwen3.5-9b",
@@ -7312,8 +7312,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.7e-7,
-      "outputPrice": 0.0000015,
+      "inputPrice": 6.23e-7,
+      "outputPrice": 0.000001271,
       "maxCompletionTokens": 943718
     },
     {
@@ -7425,9 +7425,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.7e-7,
-      "outputPrice": 0.0000015,
-      "maxCompletionTokens": 943718
+      "inputPrice": 4.5e-7,
+      "outputPrice": 0.000002,
+      "maxCompletionTokens": 131072
     },
     {
       "id": "z-ai/glm-5v-turbo",
