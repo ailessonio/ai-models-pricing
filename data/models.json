@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "https://ailesson.io/llm-price/api/models",
-  "updatedAt": "2026-11-11T10:56:05.131Z",
-  "modelCount": 461,
-  "paidModelCount": 445,
+  "updatedAt": "2026-11-12T11:07:00.958Z",
+  "modelCount": 460,
+  "paidModelCount": 444,
   "models": [
     {
       "id": "~anthropic/claude-fable-latest",
@@ -85,8 +85,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 6e-9,
-      "outputPrice": 5e-7,
+      "inputPrice": 2.2e-8,
+      "outputPrice": 4e-7,
       "maxCompletionTokens": 943718
     },
     {
@@ -1085,40 +1085,6 @@
       "maxCompletionTokens": 131072
     },
     {
-      "id": "bytedance-seed/seed-1.6",
-      "name": "ByteDance Seed: Seed 1.6",
-      "created": 1766504997,
-      "contextLength": 262144,
-      "inputModalities": [
-        "image",
-        "text",
-        "video"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "inputPrice": 2.5e-7,
-      "outputPrice": 0.000002,
-      "maxCompletionTokens": 32768
-    },
-    {
-      "id": "bytedance-seed/seed-1.6-flash",
-      "name": "ByteDance Seed: Seed 1.6 Flash",
-      "created": 1766505011,
-      "contextLength": 262144,
-      "inputModalities": [
-        "image",
-        "text",
-        "video"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "inputPrice": 7.5e-8,
-      "outputPrice": 3e-7,
-      "maxCompletionTokens": 32768
-    },
-    {
       "id": "bytedance-seed/seed-2-1-turbo",
       "name": "ByteDance Seed: Seed 2.1 Turbo",
       "created": 1786552176,
@@ -1134,23 +1100,6 @@
       "inputPrice": 5e-7,
       "outputPrice": 0.0000025,
       "maxCompletionTokens": 235929
-    },
-    {
-      "id": "bytedance-seed/seed-2.0-code",
-      "name": "ByteDance Seed: Seed-2.0-Code",
-      "created": 1786550701,
-      "contextLength": 262144,
-      "inputModalities": [
-        "text",
-        "image",
-        "video"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "inputPrice": 5e-7,
-      "outputPrice": 0.000003,
-      "maxCompletionTokens": 131072
     },
     {
       "id": "bytedance-seed/seed-2.0-lite",
@@ -1516,8 +1465,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 5.1e-8,
-      "outputPrice": 5.67e-7,
+      "inputPrice": 2.2e-8,
+      "outputPrice": 4e-7,
       "maxCompletionTokens": 943718
     },
     {
@@ -1532,9 +1481,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 6e-9,
-      "outputPrice": 5e-7,
-      "maxCompletionTokens": 943718
+      "inputPrice": 3e-7,
+      "outputPrice": 0.0000012,
+      "maxCompletionTokens": 393216
     },
     {
       "id": "deepseek/deepseek-v4.1-flash-1017:batch",
@@ -2309,7 +2258,7 @@
         "text"
       ],
       "inputPrice": 8e-8,
-      "outputPrice": 4.5e-7,
+      "outputPrice": 3.5e-7,
       "maxCompletionTokens": 117964
     },
     {
@@ -2457,7 +2406,7 @@
         "text"
       ],
       "inputPrice": 6e-8,
-      "outputPrice": 2.5e-7,
+      "outputPrice": 1.5e-7,
       "maxCompletionTokens": 117964
     },
     {
@@ -3000,9 +2949,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3e-7,
-      "outputPrice": 0.0000012,
-      "maxCompletionTokens": 58982
+      "inputPrice": 2.7e-7,
+      "outputPrice": 0.00000108,
+      "maxCompletionTokens": 128000
     },
     {
       "id": "minimax/minimax-m2.7",
@@ -3582,8 +3531,25 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 0.000002,
-      "outputPrice": 0.00001,
+      "inputPrice": 2.375e-7,
+      "outputPrice": 0.0000084085,
+      "maxCompletionTokens": 943718
+    },
+    {
+      "id": "moonshotai/kimi-k3.1-pro:batch",
+      "name": "MoonshotAI: Kimi K3.1 Pro (batch)",
+      "created": 1792778188,
+      "contextLength": 1048576,
+      "inputModalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 7e-7,
+      "outputPrice": 0.000006,
       "maxCompletionTokens": 943718
     },
     {
@@ -4856,8 +4822,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 0.000004,
-      "outputPrice": 0.00002,
+      "inputPrice": 0.0000044,
+      "outputPrice": 0.000022,
       "maxCompletionTokens": 128000
     },
     {
@@ -5411,8 +5377,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3e-8,
-      "outputPrice": 1.3e-7,
+      "inputPrice": 1.8e-8,
+      "outputPrice": 9e-8,
       "maxCompletionTokens": 117964
     },
     {
@@ -6078,9 +6044,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.7e-7,
-      "outputPrice": 2.5e-7,
-      "maxCompletionTokens": 235929
+      "inputPrice": 3.9e-8,
+      "outputPrice": 5.8e-8,
+      "maxCompletionTokens": 40960
     },
     {
       "id": "qwen/qwen3.5-flash-02-23",
@@ -6937,6 +6903,22 @@
       "maxCompletionTokens": 131072
     },
     {
+      "id": "unbiased/pareto-26.10-preview",
+      "name": "Pareto 26.10 Preview",
+      "created": 1790863623,
+      "contextLength": 1048576,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 8e-7,
+      "outputPrice": 0.0000032,
+      "maxCompletionTokens": 131072
+    },
+    {
       "id": "unbiased/pareto-26.9",
       "name": "Pareto 26.9",
       "created": 1791930537,
@@ -7418,8 +7400,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 0.00000133,
-      "outputPrice": 0.00000418,
+      "inputPrice": 0.0000014,
+      "outputPrice": 0.0000044,
       "maxCompletionTokens": 131072
     },
     {
@@ -7448,8 +7430,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 5.27e-7,
-      "outputPrice": 0.000001075,
+      "inputPrice": 3.22e-7,
+      "outputPrice": 9.89e-7,
       "maxCompletionTokens": 943718
     },
     {
@@ -7497,9 +7479,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4.7e-8,
-      "outputPrice": 6.1e-8,
-      "maxCompletionTokens": 943718
+      "inputPrice": 5e-8,
+      "outputPrice": 1.8e-7,
+      "maxCompletionTokens": 131072
     },
     {
       "id": "z-ai/glm-5.3-flashx",
@@ -7561,9 +7543,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4.5e-7,
-      "outputPrice": 0.000002,
-      "maxCompletionTokens": 131072
+      "inputPrice": 3.22e-7,
+      "outputPrice": 9.89e-7,
+      "maxCompletionTokens": 943718
     },
     {
       "id": "z-ai/glm-5v-turbo",
