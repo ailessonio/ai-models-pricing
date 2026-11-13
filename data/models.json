@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "https://ailesson.io/llm-price/api/models",
-  "updatedAt": "2026-11-12T11:07:00.958Z",
-  "modelCount": 460,
-  "paidModelCount": 444,
+  "updatedAt": "2026-11-13T10:57:24.591Z",
+  "modelCount": 464,
+  "paidModelCount": 447,
   "models": [
     {
       "id": "~anthropic/claude-fable-latest",
@@ -85,8 +85,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.2e-8,
-      "outputPrice": 4e-7,
+      "inputPrice": 3.8e-8,
+      "outputPrice": 5e-7,
       "maxCompletionTokens": 943718
     },
     {
@@ -125,18 +125,18 @@
       "created": 1777318398,
       "contextLength": 1048576,
       "inputModalities": [
-        "text",
-        "image",
-        "video",
+        "audio",
         "file",
-        "audio"
+        "image",
+        "text",
+        "video"
       ],
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 7.5e-7,
-      "outputPrice": 0.00000375,
-      "maxCompletionTokens": 65536
+      "inputPrice": 0.0000015,
+      "outputPrice": 0.0000075,
+      "maxCompletionTokens": 943718
     },
     {
       "id": "~google/gemini-pro-latest",
@@ -1434,9 +1434,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 9.5526e-7,
-      "outputPrice": 0.00000191052,
-      "maxCompletionTokens": 384000
+      "inputPrice": 9e-7,
+      "outputPrice": 0.0000015,
+      "maxCompletionTokens": 393216
     },
     {
       "id": "deepseek/deepseek-v4-pro-0813",
@@ -1465,8 +1465,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.2e-8,
-      "outputPrice": 4e-7,
+      "inputPrice": 3e-7,
+      "outputPrice": 0.0000012,
       "maxCompletionTokens": 943718
     },
     {
@@ -1497,9 +1497,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.1e-8,
-      "outputPrice": 2e-7,
-      "maxCompletionTokens": 943718
+      "inputPrice": 5e-8,
+      "outputPrice": 1.5e-7,
+      "maxCompletionTokens": 384000
     },
     {
       "id": "deepseek/deepseek-v4.1-flash:batch",
@@ -2162,6 +2162,44 @@
       "maxCompletionTokens": 943718
     },
     {
+      "id": "google/gemini-4-hydrogen",
+      "name": "Google: Gemini 4 Hydrogen",
+      "created": 1794506460,
+      "contextLength": 1048576,
+      "inputModalities": [
+        "audio",
+        "file",
+        "image",
+        "text",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0.0000015,
+      "outputPrice": 0.0000075,
+      "maxCompletionTokens": 943718
+    },
+    {
+      "id": "google/gemini-4-hydrogen:batch",
+      "name": "Google: Gemini 4 Hydrogen (batch)",
+      "created": 1794506460,
+      "contextLength": 1048576,
+      "inputModalities": [
+        "audio",
+        "file",
+        "image",
+        "text",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 7.5e-7,
+      "outputPrice": 0.00000375,
+      "maxCompletionTokens": 943718
+    },
+    {
       "id": "google/gemini-nano-banana-2.1",
       "name": "Google: Nano Banana 2.1",
       "created": 1791300825,
@@ -2290,9 +2328,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 8e-8,
-      "outputPrice": 1e-7,
-      "maxCompletionTokens": 128000
+      "inputPrice": 9e-8,
+      "outputPrice": 3e-7,
+      "maxCompletionTokens": 235929
     },
     {
       "id": "google/gemma-4-26b-a4b-it:free",
@@ -2406,7 +2444,7 @@
         "text"
       ],
       "inputPrice": 6e-8,
-      "outputPrice": 1.5e-7,
+      "outputPrice": 2.5e-7,
       "maxCompletionTokens": 117964
     },
     {
@@ -2902,7 +2940,7 @@
       ],
       "inputPrice": 0.00000125,
       "outputPrice": 0.00000425,
-      "maxCompletionTokens": 262144
+      "maxCompletionTokens": 943718
     },
     {
       "id": "meta/muse-wonder",
@@ -3448,9 +3486,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 5.32e-7,
-      "outputPrice": 0.000003325,
-      "maxCompletionTokens": 65536
+      "inputPrice": 5e-7,
+      "outputPrice": 0.0000025,
+      "maxCompletionTokens": 235929
     },
     {
       "id": "moonshotai/kimi-k2.6",
@@ -3531,8 +3569,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.375e-7,
-      "outputPrice": 0.0000084085,
+      "inputPrice": 0.000002,
+      "outputPrice": 0.00001,
       "maxCompletionTokens": 943718
     },
     {
@@ -5377,8 +5415,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.8e-8,
-      "outputPrice": 9e-8,
+      "inputPrice": 3e-8,
+      "outputPrice": 1.3e-7,
       "maxCompletionTokens": 117964
     },
     {
@@ -5525,6 +5563,22 @@
       ],
       "inputPrice": 5e-8,
       "outputPrice": 5e-7,
+      "maxCompletionTokens": 131072
+    },
+    {
+      "id": "particle-ai/particle-1:free",
+      "name": "Particle AI: Particle-1 (free)",
+      "created": 1793207893,
+      "contextLength": 1048576,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0,
+      "outputPrice": 0,
       "maxCompletionTokens": 131072
     },
     {
@@ -5745,9 +5799,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1e-7,
-      "outputPrice": 2.2e-7,
-      "maxCompletionTokens": 36864
+      "inputPrice": 1.2e-7,
+      "outputPrice": 2.4e-7,
+      "maxCompletionTokens": 16384
     },
     {
       "id": "qwen/qwen3-235b-a22b-2507",
@@ -6044,8 +6098,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.9e-8,
-      "outputPrice": 5.8e-8,
+      "inputPrice": 9.4e-8,
+      "outputPrice": 1.39e-7,
       "maxCompletionTokens": 40960
     },
     {
@@ -6469,8 +6523,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2e-7,
-      "outputPrice": 6e-7,
+      "inputPrice": 1e-7,
+      "outputPrice": 3e-7,
       "maxCompletionTokens": 131072
     },
     {
@@ -6837,6 +6891,22 @@
       "maxCompletionTokens": 471859
     },
     {
+      "id": "thinkingmachines/inkling-2-small",
+      "name": "Thinking Machines: Inkling 2 Small",
+      "created": 1794261847,
+      "contextLength": 1048576,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 3e-7,
+      "outputPrice": 0.000001,
+      "maxCompletionTokens": 943718
+    },
+    {
       "id": "thinkingmachines/inkling-2-small:free",
       "name": "Thinking Machines: Inkling 2 Small (free)",
       "created": 1794261847,
@@ -7193,9 +7263,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4.8e-7,
-      "outputPrice": 0.0000018,
-      "maxCompletionTokens": 235929
+      "inputPrice": 4.35e-7,
+      "outputPrice": 8.7e-7,
+      "maxCompletionTokens": 131072
     },
     {
       "id": "xiaomi/mimo-v2.6-flash",
@@ -7430,8 +7500,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.22e-7,
-      "outputPrice": 9.89e-7,
+      "inputPrice": 2.98e-7,
+      "outputPrice": 9.16e-7,
       "maxCompletionTokens": 943718
     },
     {
@@ -7445,8 +7515,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 6.99e-8,
-      "outputPrice": 0.0000014,
+      "inputPrice": 8.4e-8,
+      "outputPrice": 0.0000036,
       "maxCompletionTokens": 943718
     },
     {
@@ -7543,9 +7613,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.22e-7,
-      "outputPrice": 9.89e-7,
-      "maxCompletionTokens": 943718
+      "inputPrice": 4.5e-7,
+      "outputPrice": 0.000002,
+      "maxCompletionTokens": 131072
     },
     {
       "id": "z-ai/glm-5v-turbo",
