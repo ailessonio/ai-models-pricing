@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "https://ailesson.io/llm-price/api/models",
-  "updatedAt": "2026-11-14T10:24:30.418Z",
-  "modelCount": 463,
-  "paidModelCount": 446,
+  "updatedAt": "2026-11-15T10:51:59.124Z",
+  "modelCount": 462,
+  "paidModelCount": 445,
   "models": [
     {
       "id": "~anthropic/claude-fable-latest",
@@ -1388,9 +1388,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4.34e-8,
-      "outputPrice": 3e-7,
-      "maxCompletionTokens": 943718
+      "inputPrice": 6e-8,
+      "outputPrice": 1.8e-7,
+      "maxCompletionTokens": 384000
     },
     {
       "id": "deepseek/deepseek-v4-flash-0731:batch",
@@ -1481,9 +1481,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.8e-8,
-      "outputPrice": 5e-7,
-      "maxCompletionTokens": 943718
+      "inputPrice": 1.5e-7,
+      "outputPrice": 6e-7,
+      "maxCompletionTokens": 393216
     },
     {
       "id": "deepseek/deepseek-v4.1-flash-1017:batch",
@@ -1497,9 +1497,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 5e-8,
-      "outputPrice": 1.5e-7,
-      "maxCompletionTokens": 384000
+      "inputPrice": 2.3e-8,
+      "outputPrice": 2e-7,
+      "maxCompletionTokens": 943718
     },
     {
       "id": "deepseek/deepseek-v4.1-flash:batch",
@@ -3555,8 +3555,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 0.000002,
-      "outputPrice": 0.00001,
+      "inputPrice": 2.232e-7,
+      "outputPrice": 0.0000084114,
       "maxCompletionTokens": 943718
     },
     {
@@ -3572,8 +3572,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 7e-7,
-      "outputPrice": 0.000006,
+      "inputPrice": 3.3e-7,
+      "outputPrice": 0.00000495,
       "maxCompletionTokens": 943718
     },
     {
@@ -3852,8 +3852,8 @@
         "text"
       ],
       "inputPrice": 1.5e-7,
-      "outputPrice": 4.7e-7,
-      "maxCompletionTokens": 943718
+      "outputPrice": 5e-7,
+      "maxCompletionTokens": 235929
     },
     {
       "id": "nvidia/nemotron-3.5-super-vl:free",
@@ -4846,8 +4846,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 0.000004,
-      "outputPrice": 0.00002,
+      "inputPrice": 0.0000044,
+      "outputPrice": 0.000022,
       "maxCompletionTokens": 128000
     },
     {
@@ -5547,7 +5547,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 5e-8,
+      "inputPrice": 6e-8,
       "outputPrice": 5e-7,
       "maxCompletionTokens": 131072
     },
@@ -6084,8 +6084,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.45e-7,
-      "outputPrice": 2.14e-7,
+      "inputPrice": 9.6e-8,
+      "outputPrice": 1.41e-7,
       "maxCompletionTokens": 40960
     },
     {
@@ -7396,8 +7396,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 6e-7,
-      "outputPrice": 0.0000022,
+      "inputPrice": 4e-7,
+      "outputPrice": 0.00000175,
       "maxCompletionTokens": 131072
     },
     {
@@ -7458,7 +7458,7 @@
       ],
       "inputPrice": 0.0000014,
       "outputPrice": 0.0000044,
-      "maxCompletionTokens": 131072
+      "maxCompletionTokens": 182476
     },
     {
       "id": "z-ai/glm-5.2",
@@ -7473,21 +7473,6 @@
       ],
       "inputPrice": 7e-9,
       "outputPrice": 0.0000068,
-      "maxCompletionTokens": 943718
-    },
-    {
-      "id": "z-ai/glm-5.2:batch",
-      "name": "Z.ai: GLM 5.2 (batch)",
-      "created": 1781631930,
-      "contextLength": 1048576,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "inputPrice": 2.98e-7,
-      "outputPrice": 9.16e-7,
       "maxCompletionTokens": 943718
     },
     {
@@ -7599,9 +7584,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4.5e-7,
-      "outputPrice": 0.000002,
-      "maxCompletionTokens": 131072
+      "inputPrice": 2.57e-7,
+      "outputPrice": 7.91e-7,
+      "maxCompletionTokens": 943718
     },
     {
       "id": "z-ai/glm-5v-turbo",
