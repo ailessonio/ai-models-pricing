@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "https://ailesson.io/llm-price/api/models",
-  "updatedAt": "2026-11-17T11:50:44.220Z",
-  "modelCount": 462,
-  "paidModelCount": 445,
+  "updatedAt": "2026-11-18T11:40:32.875Z",
+  "modelCount": 470,
+  "paidModelCount": 453,
   "models": [
     {
       "id": "~anthropic/claude-fable-latest",
@@ -187,8 +187,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 0.00001,
-      "outputPrice": 0.00005,
+      "inputPrice": 0.000008,
+      "outputPrice": 0.00004,
       "maxCompletionTokens": 128000
     },
     {
@@ -1465,9 +1465,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.4e-7,
-      "outputPrice": 4.2e-7,
-      "maxCompletionTokens": 393216
+      "inputPrice": 3e-7,
+      "outputPrice": 0.0000012,
+      "maxCompletionTokens": 943718
     },
     {
       "id": "deepseek/deepseek-v4.1-flash-1017",
@@ -2296,7 +2296,7 @@
         "text"
       ],
       "inputPrice": 8e-8,
-      "outputPrice": 3.5e-7,
+      "outputPrice": 4.5e-7,
       "maxCompletionTokens": 117964
     },
     {
@@ -3201,8 +3201,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4e-7,
-      "outputPrice": 0.000002,
+      "inputPrice": 4.4e-7,
+      "outputPrice": 0.0000022,
       "maxCompletionTokens": 104857
     },
     {
@@ -3252,8 +3252,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4e-7,
-      "outputPrice": 0.000002,
+      "inputPrice": 4.4e-7,
+      "outputPrice": 0.0000022,
       "maxCompletionTokens": 104857
     },
     {
@@ -3346,9 +3346,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1e-7,
-      "outputPrice": 3e-7,
-      "maxCompletionTokens": 26214
+      "inputPrice": 7.5e-8,
+      "outputPrice": 2e-7,
+      "maxCompletionTokens": 16384
     },
     {
       "id": "mistralai/mixtral-8x22b-instruct",
@@ -3504,8 +3504,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 6e-7,
-      "outputPrice": 0.0000035,
+      "inputPrice": 8.125e-7,
+      "outputPrice": 0.00000375,
       "maxCompletionTokens": 235929
     },
     {
@@ -5310,6 +5310,142 @@
       "maxCompletionTokens": 128000
     },
     {
+      "id": "openai/gpt-6.2-astra",
+      "name": "OpenAI: GPT-6.2 Astra",
+      "created": 1794938423,
+      "contextLength": 1050000,
+      "inputModalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0.000008,
+      "outputPrice": 0.00004,
+      "maxCompletionTokens": 128000
+    },
+    {
+      "id": "openai/gpt-6.2-astra-pro",
+      "name": "OpenAI: GPT-6.2 Astra Pro",
+      "created": 1794938432,
+      "contextLength": 1050000,
+      "inputModalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0.000008,
+      "outputPrice": 0.00004,
+      "maxCompletionTokens": 128000
+    },
+    {
+      "id": "openai/gpt-6.2-astra-pro:batch",
+      "name": "OpenAI: GPT-6.2 Astra Pro (batch)",
+      "created": 1794938432,
+      "contextLength": 1050000,
+      "inputModalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0.000004,
+      "outputPrice": 0.00002,
+      "maxCompletionTokens": 128000
+    },
+    {
+      "id": "openai/gpt-6.2-astra:batch",
+      "name": "OpenAI: GPT-6.2 Astra (batch)",
+      "created": 1794938423,
+      "contextLength": 1050000,
+      "inputModalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0.000004,
+      "outputPrice": 0.00002,
+      "maxCompletionTokens": 128000
+    },
+    {
+      "id": "openai/gpt-6.2-sol",
+      "name": "OpenAI: GPT-6.2 Sol",
+      "created": 1794938371,
+      "contextLength": 1050000,
+      "inputModalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0.000002,
+      "outputPrice": 0.00001,
+      "maxCompletionTokens": 128000
+    },
+    {
+      "id": "openai/gpt-6.2-sol-pro",
+      "name": "OpenAI: GPT-6.2 Sol Pro",
+      "created": 1794938409,
+      "contextLength": 1050000,
+      "inputModalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0.000002,
+      "outputPrice": 0.00001,
+      "maxCompletionTokens": 128000
+    },
+    {
+      "id": "openai/gpt-6.2-sol-pro:batch",
+      "name": "OpenAI: GPT-6.2 Sol Pro (batch)",
+      "created": 1794938409,
+      "contextLength": 1050000,
+      "inputModalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0.000001,
+      "outputPrice": 0.000005,
+      "maxCompletionTokens": 128000
+    },
+    {
+      "id": "openai/gpt-6.2-sol:batch",
+      "name": "OpenAI: GPT-6.2 Sol (batch)",
+      "created": 1794938371,
+      "contextLength": 1050000,
+      "inputModalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0.000001,
+      "outputPrice": 0.000005,
+      "maxCompletionTokens": 128000
+    },
+    {
       "id": "openai/gpt-audio",
       "name": "OpenAI: GPT Audio",
       "created": 1768862569,
@@ -5401,9 +5537,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 7.5e-8,
-      "outputPrice": 3e-7,
-      "maxCompletionTokens": 65536
+      "inputPrice": 1.8e-8,
+      "outputPrice": 9e-8,
+      "maxCompletionTokens": 117964
     },
     {
       "id": "openai/gpt-oss-20b:batch",
@@ -5935,9 +6071,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 9e-8,
+      "inputPrice": 1e-7,
       "outputPrice": 0.0000011,
-      "maxCompletionTokens": 16384
+      "maxCompletionTokens": 235929
     },
     {
       "id": "qwen/qwen3-vl-235b-a22b-instruct",
@@ -6017,9 +6153,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.6e-7,
-      "outputPrice": 0.0000026,
-      "maxCompletionTokens": 81920
+      "inputPrice": 3e-7,
+      "outputPrice": 0.0000024,
+      "maxCompletionTokens": 65536
     },
     {
       "id": "qwen/qwen3.5-35b-a3b",
@@ -6068,8 +6204,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.7e-7,
-      "outputPrice": 2.5e-7,
+      "inputPrice": 1.68e-7,
+      "outputPrice": 2.47e-7,
       "maxCompletionTokens": 40960
     },
     {
@@ -6283,8 +6419,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.5e-7,
-      "outputPrice": 0.000001875,
+      "inputPrice": 6e-8,
+      "outputPrice": 0.0000022,
       "maxCompletionTokens": 235929
     },
     {
@@ -7229,16 +7365,16 @@
       "id": "xiaomi/mimo-v2.5-pro",
       "name": "Xiaomi: MiMo-V2.5-Pro",
       "created": 1776874273,
-      "contextLength": 1024000,
+      "contextLength": 262144,
       "inputModalities": [
         "text"
       ],
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4.35e-7,
-      "outputPrice": 8.7e-7,
-      "maxCompletionTokens": 131072
+      "inputPrice": 4.8e-7,
+      "outputPrice": 0.0000018,
+      "maxCompletionTokens": 235929
     },
     {
       "id": "xiaomi/mimo-v2.6-flash",
@@ -7505,9 +7641,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.99e-8,
-      "outputPrice": 7.84e-8,
-      "maxCompletionTokens": 131072
+      "inputPrice": 1.5e-7,
+      "outputPrice": 5e-7,
+      "maxCompletionTokens": 943717
     },
     {
       "id": "z-ai/glm-5.3-flash:batch",
