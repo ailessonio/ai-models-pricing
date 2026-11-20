@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "https://ailesson.io/llm-price/api/models",
-  "updatedAt": "2026-11-19T11:38:23.794Z",
-  "modelCount": 472,
-  "paidModelCount": 455,
+  "updatedAt": "2026-11-20T11:38:25.449Z",
+  "modelCount": 469,
+  "paidModelCount": 454,
   "models": [
     {
       "id": "~anthropic/claude-fable-latest",
@@ -85,8 +85,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.5e-8,
-      "outputPrice": 1.5e-7,
+      "inputPrice": 3.6e-8,
+      "outputPrice": 5e-7,
       "maxCompletionTokens": 943718
     },
     {
@@ -100,7 +100,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 9.99e-8,
+      "inputPrice": 2.565e-7,
       "outputPrice": 0.000008,
       "maxCompletionTokens": 393216
     },
@@ -115,7 +115,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 5.5e-8,
+      "inputPrice": 4.7e-8,
       "outputPrice": 3e-7,
       "maxCompletionTokens": 943718
     },
@@ -170,7 +170,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.824e-7,
+      "inputPrice": 1.805e-7,
       "outputPrice": 0.0000110055,
       "maxCompletionTokens": 943718
     },
@@ -1243,21 +1243,6 @@
       "maxCompletionTokens": 4000
     },
     {
-      "id": "cohere/north-mini-code:free",
-      "name": "Cohere: North Mini Code (free)",
-      "created": 1781723748,
-      "contextLength": 256000,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "inputPrice": 0,
-      "outputPrice": 0,
-      "maxCompletionTokens": 64000
-    },
-    {
       "id": "deepseek/deepseek-chat",
       "name": "DeepSeek: DeepSeek V3",
       "created": 1735241320,
@@ -1388,7 +1373,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 5.5e-8,
+      "inputPrice": 4.7e-8,
       "outputPrice": 3e-7,
       "maxCompletionTokens": 943718
     },
@@ -1449,8 +1434,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.11e-7,
-      "outputPrice": 0.00000444,
+      "inputPrice": 0.00000132,
+      "outputPrice": 0.00000396,
       "maxCompletionTokens": 943718
     },
     {
@@ -1497,8 +1482,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.6e-8,
-      "outputPrice": 1.5e-7,
+      "inputPrice": 3.5e-8,
+      "outputPrice": 1.49e-7,
       "maxCompletionTokens": 943718
     },
     {
@@ -1513,9 +1498,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.12e-7,
-      "outputPrice": 3.36e-7,
-      "maxCompletionTokens": 131072
+      "inputPrice": 5e-8,
+      "outputPrice": 1.5e-7,
+      "maxCompletionTokens": 384000
     },
     {
       "id": "dots-studio/dots-3-note-preview:free",
@@ -2543,8 +2528,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4.5e-8,
-      "outputPrice": 1.35e-7,
+      "inputPrice": 6e-8,
+      "outputPrice": 1.8e-7,
       "maxCompletionTokens": 262144
     },
     {
@@ -2714,21 +2699,6 @@
       "maxCompletionTokens": 16384
     },
     {
-      "id": "meta-llama/llama-3.2-1b-instruct",
-      "name": "Meta: Llama 3.2 1B Instruct",
-      "created": 1727222400,
-      "contextLength": 60000,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "inputPrice": 2.7e-8,
-      "outputPrice": 2.01e-7,
-      "maxCompletionTokens": 54000
-    },
-    {
       "id": "meta-llama/llama-3.2-3b-instruct",
       "name": "Meta: Llama 3.2 3B Instruct",
       "created": 1727222400,
@@ -2739,9 +2709,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 5.09e-8,
-      "outputPrice": 3.35e-7,
-      "maxCompletionTokens": 72000
+      "inputPrice": 5e-8,
+      "outputPrice": 3.3e-7,
+      "maxCompletionTokens": 117964
     },
     {
       "id": "meta-llama/llama-3.3-70b-instruct",
@@ -3405,6 +3375,22 @@
       "maxCompletionTokens": 52428
     },
     {
+      "id": "mistralai/pixtral-large-2502",
+      "name": "Mistral: Pixtral Large 2502",
+      "created": 1795135865,
+      "contextLength": 128000,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 0.000002,
+      "outputPrice": 0.000006,
+      "maxCompletionTokens": 102400
+    },
+    {
       "id": "mistralai/voxtral-small-24b-2507",
       "name": "Mistral: Voxtral Small 24B 2507",
       "created": 1761835144,
@@ -3543,7 +3529,7 @@
         "text"
       ],
       "inputPrice": 6e-7,
-      "outputPrice": 0.0000035,
+      "outputPrice": 0.000003,
       "maxCompletionTokens": 235929
     },
     {
@@ -5545,9 +5531,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.5e-7,
-      "outputPrice": 6e-7,
-      "maxCompletionTokens": 65536
+      "inputPrice": 9e-8,
+      "outputPrice": 3.6e-7,
+      "maxCompletionTokens": 117964
     },
     {
       "id": "openai/gpt-oss-120b:batch",
@@ -5721,7 +5707,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 6e-8,
+      "inputPrice": 7e-8,
       "outputPrice": 5e-7,
       "maxCompletionTokens": 131072
     },
@@ -6191,9 +6177,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.95e-7,
-      "outputPrice": 0.00000156,
-      "maxCompletionTokens": 65536
+      "inputPrice": 2.6e-7,
+      "outputPrice": 0.0000026,
+      "maxCompletionTokens": 81920
     },
     {
       "id": "qwen/qwen3.5-35b-a3b",
@@ -6244,7 +6230,7 @@
       ],
       "inputPrice": 1.7e-7,
       "outputPrice": 2.5e-7,
-      "maxCompletionTokens": 40960
+      "maxCompletionTokens": 235929
     },
     {
       "id": "qwen/qwen3.5-flash-02-23",
@@ -7054,22 +7040,6 @@
       "maxCompletionTokens": 943718
     },
     {
-      "id": "thinkingmachines/inkling-2-small:free",
-      "name": "Thinking Machines: Inkling 2 Small (free)",
-      "created": 1794261847,
-      "contextLength": 1048576,
-      "inputModalities": [
-        "text",
-        "image"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "inputPrice": 0,
-      "outputPrice": 0,
-      "maxCompletionTokens": 131072
-    },
-    {
       "id": "thinkingmachines/inkling-small",
       "name": "Thinking Machines: Inkling Small",
       "created": 1785443117,
@@ -7213,7 +7183,7 @@
     },
     {
       "id": "x-ai/grok-4.20",
-      "name": "SpaceXAI: Grok 4.20",
+      "name": "SpaceXSI: Grok 4.20",
       "created": 1774979019,
       "contextLength": 2000000,
       "inputModalities": [
@@ -7230,7 +7200,7 @@
     },
     {
       "id": "x-ai/grok-4.20-multi-agent",
-      "name": "SpaceXAI: Grok 4.20 Multi-Agent",
+      "name": "SpaceXSI: Grok 4.20 Multi-Agent",
       "created": 1774979158,
       "contextLength": 2000000,
       "inputModalities": [
@@ -7247,7 +7217,7 @@
     },
     {
       "id": "x-ai/grok-4.3",
-      "name": "SpaceXAI: Grok 4.3",
+      "name": "SpaceXSI: Grok 4.3",
       "created": 1777591821,
       "contextLength": 1000000,
       "inputModalities": [
@@ -7264,7 +7234,7 @@
     },
     {
       "id": "x-ai/grok-4.3:batch",
-      "name": "SpaceXAI: Grok 4.3 (batch)",
+      "name": "SpaceXSI: Grok 4.3 (batch)",
       "created": 1777591821,
       "contextLength": 1000000,
       "inputModalities": [
@@ -7281,7 +7251,7 @@
     },
     {
       "id": "x-ai/grok-4.5",
-      "name": "SpaceXAI: Grok 4.5",
+      "name": "SpaceXSI: Grok 4.5",
       "created": 1783523154,
       "contextLength": 500000,
       "inputModalities": [
@@ -7298,7 +7268,7 @@
     },
     {
       "id": "x-ai/grok-4.6",
-      "name": "SpaceXAI: Grok 4.6",
+      "name": "SpaceXSI: Grok 4.6",
       "created": 1786548957,
       "contextLength": 500000,
       "inputModalities": [
@@ -7315,7 +7285,7 @@
     },
     {
       "id": "x-ai/grok-4.6:batch",
-      "name": "SpaceXAI: Grok 4.6 (batch)",
+      "name": "SpaceXSI: Grok 4.6 (batch)",
       "created": 1786548957,
       "contextLength": 500000,
       "inputModalities": [
@@ -7332,7 +7302,7 @@
     },
     {
       "id": "x-ai/grok-4.7",
-      "name": "SpaceXAI: Grok 4.7",
+      "name": "SpaceXSI: Grok 4.7",
       "created": 1790007541,
       "contextLength": 500000,
       "inputModalities": [
@@ -7349,7 +7319,7 @@
     },
     {
       "id": "x-ai/grok-4.7:batch",
-      "name": "SpaceXAI: Grok 4.7 (batch)",
+      "name": "SpaceXSI: Grok 4.7 (batch)",
       "created": 1790007541,
       "contextLength": 500000,
       "inputModalities": [
@@ -7363,23 +7333,6 @@
       "inputPrice": 0.0000016,
       "outputPrice": 0.0000048,
       "maxCompletionTokens": 450000
-    },
-    {
-      "id": "x-ai/grok-build-0.1",
-      "name": "SpaceXAI: Grok Build 0.1",
-      "created": 1779298123,
-      "contextLength": 256000,
-      "inputModalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "inputPrice": 0.000001,
-      "outputPrice": 0.000002,
-      "maxCompletionTokens": 230400
     },
     {
       "id": "xiaomi/mimo-v2.5",
@@ -7679,9 +7632,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.5e-7,
-      "outputPrice": 5e-7,
-      "maxCompletionTokens": 943717
+      "inputPrice": 3.99e-8,
+      "outputPrice": 7.84e-8,
+      "maxCompletionTokens": 131072
     },
     {
       "id": "z-ai/glm-5.3-flash:batch",
@@ -7696,9 +7649,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.4e-8,
-      "outputPrice": 6.9e-8,
-      "maxCompletionTokens": 943718
+      "inputPrice": 2.3e-8,
+      "outputPrice": 6.8e-8,
+      "maxCompletionTokens": 943717
     },
     {
       "id": "z-ai/glm-5.3-flashx",
@@ -7760,9 +7713,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.81e-7,
-      "outputPrice": 0.00000125,
-      "maxCompletionTokens": 943718
+      "inputPrice": 2.8e-7,
+      "outputPrice": 0.000001249,
+      "maxCompletionTokens": 943717
     },
     {
       "id": "z-ai/glm-5v-turbo",
