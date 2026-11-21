@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "https://ailesson.io/llm-price/api/models",
-  "updatedAt": "2026-11-20T11:38:25.449Z",
-  "modelCount": 469,
+  "updatedAt": "2026-11-21T10:59:42.264Z",
+  "modelCount": 468,
   "paidModelCount": 454,
   "models": [
     {
@@ -100,7 +100,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.565e-7,
+      "inputPrice": 9.99e-8,
       "outputPrice": 0.000008,
       "maxCompletionTokens": 393216
     },
@@ -115,9 +115,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4.7e-8,
-      "outputPrice": 3e-7,
-      "maxCompletionTokens": 943718
+      "inputPrice": 4.4e-8,
+      "outputPrice": 1.32e-7,
+      "maxCompletionTokens": 131072
     },
     {
       "id": "~google/gemini-flash-latest",
@@ -1268,9 +1268,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.9e-7,
-      "outputPrice": 0.00000114,
-      "maxCompletionTokens": 115200
+      "inputPrice": 2.5e-7,
+      "outputPrice": 0.000001,
+      "maxCompletionTokens": 147456
     },
     {
       "id": "deepseek/deepseek-chat-v3.1",
@@ -1373,7 +1373,7 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4.7e-8,
+      "inputPrice": 4.43e-8,
       "outputPrice": 3e-7,
       "maxCompletionTokens": 943718
     },
@@ -1404,9 +1404,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4.4e-7,
-      "outputPrice": 0.00000132,
-      "maxCompletionTokens": 943717
+      "inputPrice": 2.156e-7,
+      "outputPrice": 6.468e-7,
+      "maxCompletionTokens": 262144
     },
     {
       "id": "deepseek/deepseek-v4-pro",
@@ -1450,9 +1450,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3e-7,
-      "outputPrice": 0.0000012,
-      "maxCompletionTokens": 943718
+      "inputPrice": 4.98e-8,
+      "outputPrice": 1.992e-7,
+      "maxCompletionTokens": 393216
     },
     {
       "id": "deepseek/deepseek-v4.1-flash-1017",
@@ -1466,8 +1466,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3e-7,
-      "outputPrice": 0.0000012,
+      "inputPrice": 1.5e-7,
+      "outputPrice": 6e-7,
       "maxCompletionTokens": 393216
     },
     {
@@ -1501,22 +1501,6 @@
       "inputPrice": 5e-8,
       "outputPrice": 1.5e-7,
       "maxCompletionTokens": 384000
-    },
-    {
-      "id": "dots-studio/dots-3-note-preview:free",
-      "name": "Dots Studio: Dots3-Note Preview (free)",
-      "created": 1786680361,
-      "contextLength": 512000,
-      "inputModalities": [
-        "text",
-        "image"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "inputPrice": 0,
-      "outputPrice": 0,
-      "maxCompletionTokens": 460800
     },
     {
       "id": "elorian/glimpse",
@@ -2319,8 +2303,8 @@
         "text"
       ],
       "inputPrice": 8e-8,
-      "outputPrice": 1.6e-7,
-      "maxCompletionTokens": 16384
+      "outputPrice": 4.5e-7,
+      "maxCompletionTokens": 117964
     },
     {
       "id": "google/gemma-3-4b-it",
@@ -2351,8 +2335,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 9e-8,
-      "outputPrice": 3e-7,
+      "inputPrice": 6.75e-8,
+      "outputPrice": 2.25e-7,
       "maxCompletionTokens": 235929
     },
     {
@@ -2652,21 +2636,6 @@
       "inputPrice": 3e-7,
       "outputPrice": 5e-7,
       "maxCompletionTokens": 6000
-    },
-    {
-      "id": "meituan/longcat-2.0",
-      "name": "Meituan: LongCat 2.0",
-      "created": 1784554658,
-      "contextLength": 1048756,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "inputPrice": 3e-7,
-      "outputPrice": 0.0000012,
-      "maxCompletionTokens": 262144
     },
     {
       "id": "meta-llama/llama-3.1-70b-instruct",
@@ -2981,9 +2950,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.95e-7,
-      "outputPrice": 0.0000012,
-      "maxCompletionTokens": 176947
+      "inputPrice": 2.7e-7,
+      "outputPrice": 9.5e-7,
+      "maxCompletionTokens": 32768
     },
     {
       "id": "minimax/minimax-m2.7",
@@ -2996,9 +2965,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.1e-7,
-      "outputPrice": 8.4e-7,
-      "maxCompletionTokens": 176947
+      "inputPrice": 6e-7,
+      "outputPrice": 0.0000018,
+      "maxCompletionTokens": 131072
     },
     {
       "id": "minimax/minimax-m3",
@@ -3876,8 +3845,8 @@
         "text"
       ],
       "inputPrice": 1.5e-7,
-      "outputPrice": 5e-7,
-      "maxCompletionTokens": 235929
+      "outputPrice": 4.7e-7,
+      "maxCompletionTokens": 943718
     },
     {
       "id": "nvidia/nemotron-3.5-super-vl:free",
@@ -5561,8 +5530,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.8e-8,
-      "outputPrice": 9e-8,
+      "inputPrice": 1.7e-8,
+      "outputPrice": 8.5e-8,
       "maxCompletionTokens": 117964
     },
     {
@@ -6050,8 +6019,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.5e-7,
-      "outputPrice": 6e-7,
+      "inputPrice": 7e-8,
+      "outputPrice": 2.8e-7,
       "maxCompletionTokens": 235929
     },
     {
@@ -6177,9 +6146,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 2.6e-7,
-      "outputPrice": 0.0000026,
-      "maxCompletionTokens": 81920
+      "inputPrice": 1.95e-7,
+      "outputPrice": 0.00000156,
+      "maxCompletionTokens": 65536
     },
     {
       "id": "qwen/qwen3.5-35b-a3b",
@@ -6444,7 +6413,7 @@
         "text"
       ],
       "inputPrice": 6e-8,
-      "outputPrice": 0.0000022,
+      "outputPrice": 0.00000196,
       "maxCompletionTokens": 235929
     },
     {
@@ -6566,6 +6535,22 @@
       "inputPrice": 0.000001425,
       "outputPrice": 0.000004275,
       "maxCompletionTokens": 131072
+    },
+    {
+      "id": "radixark/daisyrose-27b",
+      "name": "RadixArk: DaisyRose 27B",
+      "created": 1795222188,
+      "contextLength": 262144,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 1.5e-7,
+      "outputPrice": 0.000001875,
+      "maxCompletionTokens": 235929
     },
     {
       "id": "recursive/flint-v1.0:free",
@@ -6900,21 +6885,6 @@
       "maxCompletionTokens": 128000
     },
     {
-      "id": "tencent/hy3-preview",
-      "name": "Tencent: Hy3 preview",
-      "created": 1776878150,
-      "contextLength": 262144,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "inputPrice": 1.8e-7,
-      "outputPrice": 6e-7,
-      "maxCompletionTokens": 235929
-    },
-    {
       "id": "tencent/hy4",
       "name": "Tencent: Hy4",
       "created": 1793766031,
@@ -7022,6 +6992,22 @@
       "inputPrice": 0.000001,
       "outputPrice": 0.00000405,
       "maxCompletionTokens": 471859
+    },
+    {
+      "id": "thinkingmachines/inkling-2-mini",
+      "name": "Thinking Machines: Inkling 2 Mini",
+      "created": 1795227585,
+      "contextLength": 1048576,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 1e-7,
+      "outputPrice": 4e-7,
+      "maxCompletionTokens": 65536
     },
     {
       "id": "thinkingmachines/inkling-2-small",
@@ -7371,7 +7357,7 @@
       "id": "xiaomi/mimo-v2.6-flash",
       "name": "Xiaomi: MiMo-V2.6-Flash",
       "created": 1790021264,
-      "contextLength": 1050000,
+      "contextLength": 1048576,
       "inputModalities": [
         "text",
         "image",
@@ -7389,7 +7375,7 @@
       "id": "xiaomi/mimo-v2.6-pro",
       "name": "Xiaomi: MiMo-V2.6-Pro",
       "created": 1790021259,
-      "contextLength": 1050000,
+      "contextLength": 1048576,
       "inputModalities": [
         "text",
         "image",
