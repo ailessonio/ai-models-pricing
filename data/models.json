@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "https://ailesson.io/llm-price/api/models",
-  "updatedAt": "2026-11-26T12:31:35.099Z",
-  "modelCount": 465,
-  "paidModelCount": 451,
+  "updatedAt": "2026-11-27T12:18:04.842Z",
+  "modelCount": 468,
+  "paidModelCount": 454,
   "models": [
     {
       "id": "~anthropic/claude-fable-latest",
@@ -100,9 +100,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.11e-7,
-      "outputPrice": 0.00000444,
-      "maxCompletionTokens": 943718
+      "inputPrice": 9.99e-8,
+      "outputPrice": 0.000005,
+      "maxCompletionTokens": 393216
     },
     {
       "id": "~deepseek/deepseek-v4-flash-latest",
@@ -1357,9 +1357,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 6e-8,
-      "outputPrice": 1.8e-7,
-      "maxCompletionTokens": 384000
+      "inputPrice": 4.7e-8,
+      "outputPrice": 3e-7,
+      "maxCompletionTokens": 943718
     },
     {
       "id": "deepseek/deepseek-v4-flash-0731:batch",
@@ -1388,9 +1388,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4.4e-7,
-      "outputPrice": 0.00000132,
-      "maxCompletionTokens": 393216
+      "inputPrice": 2.156e-7,
+      "outputPrice": 6.468e-7,
+      "maxCompletionTokens": 262144
     },
     {
       "id": "deepseek/deepseek-v4-pro",
@@ -1418,9 +1418,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 1.11e-7,
-      "outputPrice": 0.00000444,
-      "maxCompletionTokens": 943718
+      "inputPrice": 9.99e-8,
+      "outputPrice": 0.000005,
+      "maxCompletionTokens": 393216
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
@@ -2287,8 +2287,8 @@
         "text"
       ],
       "inputPrice": 8e-8,
-      "outputPrice": 4.5e-7,
-      "maxCompletionTokens": 117964
+      "outputPrice": 1.6e-7,
+      "maxCompletionTokens": 16384
     },
     {
       "id": "google/gemma-3-4b-it",
@@ -2302,9 +2302,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 4e-8,
-      "outputPrice": 5e-8,
-      "maxCompletionTokens": 117964
+      "inputPrice": 5e-8,
+      "outputPrice": 1e-7,
+      "maxCompletionTokens": 16384
     },
     {
       "id": "google/gemma-4-26b-a4b-it",
@@ -2517,6 +2517,22 @@
       "maxCompletionTokens": 262144
     },
     {
+      "id": "inclusionai/lingsante-3.1-air-vl",
+      "name": "inclusionAI: LingSante 3.1 Air VL",
+      "created": 1795705284,
+      "contextLength": 131072,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 6e-8,
+      "outputPrice": 1.8e-7,
+      "maxCompletionTokens": 32768
+    },
+    {
       "id": "inference-net/schematron-v2-small",
       "name": "Inference.net: Schematron V2 Small",
       "created": 1789176933,
@@ -2677,9 +2693,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 7.1e-7,
-      "outputPrice": 7.1e-7,
-      "maxCompletionTokens": 115200
+      "inputPrice": 5.9e-7,
+      "outputPrice": 7.9e-7,
+      "maxCompletionTokens": 32768
     },
     {
       "id": "meta-llama/llama-4-maverick",
@@ -2760,9 +2776,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 3.5e-7,
-      "outputPrice": 0.0000015,
-      "maxCompletionTokens": 117964
+      "inputPrice": 3e-7,
+      "outputPrice": 0.0000012,
+      "maxCompletionTokens": 16384
     },
     {
       "id": "meta/muse-glimmer-30b:batch",
@@ -3424,6 +3440,36 @@
       "maxCompletionTokens": 4096
     },
     {
+      "id": "moonshotai/kimi-k2",
+      "name": "MoonshotAI: Kimi K2 0711",
+      "created": 1752263252,
+      "contextLength": 131072,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 5.7e-7,
+      "outputPrice": 0.0000023,
+      "maxCompletionTokens": 98304
+    },
+    {
+      "id": "moonshotai/kimi-k2-0905",
+      "name": "MoonshotAI: Kimi K2 0905",
+      "created": 1757021147,
+      "contextLength": 262144,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "inputPrice": 6e-7,
+      "outputPrice": 0.0000025,
+      "maxCompletionTokens": 98304
+    },
+    {
       "id": "moonshotai/kimi-k2.5",
       "name": "MoonshotAI: Kimi K2.5",
       "created": 1769487076,
@@ -3435,9 +3481,9 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 5e-7,
-      "outputPrice": 0.0000025,
-      "maxCompletionTokens": 235929
+      "inputPrice": 6e-7,
+      "outputPrice": 0.000003,
+      "maxCompletionTokens": 131072
     },
     {
       "id": "moonshotai/kimi-k2.6",
@@ -5648,7 +5694,7 @@
       ],
       "inputPrice": 7e-8,
       "outputPrice": 5e-7,
-      "maxCompletionTokens": 131072
+      "maxCompletionTokens": 943718
     },
     {
       "id": "particle-ai/particle-1:free",
@@ -5664,7 +5710,7 @@
       ],
       "inputPrice": 0,
       "outputPrice": 0,
-      "maxCompletionTokens": 131072
+      "maxCompletionTokens": 943718
     },
     {
       "id": "perceptron/perceptron-mk1",
@@ -6358,7 +6404,7 @@
       "id": "qwen/qwen3.8-2.4t-a95b",
       "name": "Qwen: Qwen3.8 2.4T A95B",
       "created": 1786551702,
-      "contextLength": 1048576,
+      "contextLength": 1000000,
       "inputModalities": [
         "text"
       ],
@@ -6975,8 +7021,8 @@
       "outputModalities": [
         "text"
       ],
-      "inputPrice": 7.5e-8,
-      "outputPrice": 3e-7,
+      "inputPrice": 6e-8,
+      "outputPrice": 2.4e-7,
       "maxCompletionTokens": 65536
     },
     {
@@ -7409,7 +7455,7 @@
       "id": "z-ai/glm-4.6",
       "name": "Z.ai: GLM 4.6",
       "created": 1759235576,
-      "contextLength": 204800,
+      "contextLength": 202752,
       "inputModalities": [
         "text"
       ],
